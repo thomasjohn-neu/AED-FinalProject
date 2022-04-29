@@ -6,7 +6,7 @@ package models.Person;
 
 import Business.DeliveryAgency.ClerkDirectory;
 import Business.DeliveryAgency.DriverDirectory;
-import Business.Employee.Employee;
+import models.Employee.Employee;
 import Business.Role.Role;
 import Business.Store.StoreDirectory;
 import Business.WorkQueue.WorkQueue;
