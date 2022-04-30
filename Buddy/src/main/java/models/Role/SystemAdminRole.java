@@ -12,7 +12,7 @@ import models.Person.Person;
  *
  * @author thomas
  */
-public class SystemAdminRole {
+public class SystemAdminRole extends Role{
     public JPanel createWorkArea(JPanel userProcessContainer, Person account, AppSystem system) {
         return new SystemAdminWorkAreaJPanel(userProcessContainer, account, system);
     }
