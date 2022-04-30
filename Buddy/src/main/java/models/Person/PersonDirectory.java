@@ -10,7 +10,7 @@ package models.Person;
  */
 
 import models.Employee.Employee;
-import Business.Role.Role;
+import models.Role.Role;
 import java.util.ArrayList;
 
 public class PersonDirectory {

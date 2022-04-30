@@ -6,7 +6,7 @@ package models.DeliveryAdmin;
 import models.Contribution.Contribution;
 import models.Products.Product;
 import models.Products.ProductList;
-import models.WorkQueue.WorkRequest;
+import models.TaskQueue.Task;
 import java.util.ArrayList;
 import java.util.Date;
 /**
@@ -27,7 +27,7 @@ public class DeliveryAdmin {
     private String pickupTime;
     private String pickupLocation;
     private ArrayList<Contribution> contributionList;
-    private ArrayList<WorkRequest> workRequestList;
+    private ArrayList<Task> workRequestList;
 
     public DeliveryAdmin(String name, String role, String userName, String password) {
         this.UserName = userName;
@@ -36,7 +36,7 @@ public class DeliveryAdmin {
     }
 
     public void addWorkRequest(String storeName, String item, Date expDate, Date pickupTime, String pickupLocation) {
-        WorkRequest workRequest = new WorkRequest();
+        Task workRequest = new Task();
         Product product = new Product();
         ProductList productList = new ProductList();
         product.setProductName(item);
@@ -134,11 +134,11 @@ public class DeliveryAdmin {
         this.contributionList = contributionList;
     }
 
-    public ArrayList<WorkRequest> getWorkRequestList() {
+    public ArrayList<Task> getWorkRequestList() {
         return this.workRequestList;
     }
 
-    public void setWorkRequestList(ArrayList<WorkRequest> workRequestList) {
+    public void setWorkRequestList(ArrayList<Task> workRequestList) {
         this.workRequestList = workRequestList;
     }
 

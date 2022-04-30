@@ -4,12 +4,12 @@
  */
 package models.Person;
 
-import Business.DeliveryAgency.ClerkDirectory;
-import Business.DeliveryAgency.DriverDirectory;
+import models.DeliveryAgency.ClerkDirectory;
+import models.DeliveryAgency.DriverDirectory;
 import models.Employee.Employee;
-import Business.Role.Role;
-import Business.Store.StoreDirectory;
-import Business.WorkQueue.WorkQueue;
+import models.Role.Role;
+import models.Store.StoreDirectory;
+import models.TaskQueue.TaskQueue;
 
 /**
  *
@@ -21,7 +21,7 @@ public class Person {
     private String password;
     private Employee employee;
     private Role role;
-    private WorkQueue workQueue;
+    private TaskQueue workQueue;
     private DriverDirectory driverList;
     private ClerkDirectory clerkList;
     private StoreDirectory storeDirectory;
@@ -32,7 +32,7 @@ public class Person {
     private String location;
     
     public Person() {
-        workQueue = new WorkQueue();
+        workQueue = new TaskQueue();
     }
     
     public String getName() {
@@ -76,16 +76,16 @@ public class Person {
         return employee;
     }
 
-    public WorkQueue getWorkQueue() {
+    public TaskQueue getWorkQueue() {
         if(workQueue==null)
         {
-            workQueue=new WorkQueue();
+            workQueue=new TaskQueue();
         }
         return workQueue;
     }
     
     
-    public void setWorkQueue(WorkQueue workQueue) {
+    public void setWorkQueue(TaskQueue workQueue) {
         this.workQueue = workQueue;
     }
 

@@ -19,8 +19,8 @@ import models.Volunteer.VolunteerDirectory;
  *
  * @author thomas
  */
-public class System extends Organization{
-    private static System business;
+public class AppSystem extends Organization{
+    private static AppSystem business;
     private RestaurantDirectory restaurantDirectory;
     private CustomerDirectory customerDirectory;
     private DeliveryManDirectory deliveryManDirectory;
@@ -41,7 +41,7 @@ public class System extends Organization{
 
 
     //Contructor
-    public System(RestaurantDirectory restaurantDirectory, CustomerDirectory customerDirectory, DeliveryManDirectory deliveryManDirectory,
+    public AppSystem(RestaurantDirectory restaurantDirectory, CustomerDirectory customerDirectory, DeliveryManDirectory deliveryManDirectory,
             VolunteerDirectory volunteerDirectory, ContributorDirectory contributorDirectory, StoreAdminDirectory storeAdminDirectory,
             DeliveryAgentDirectory deliveryAgentDirectory, DistributorDirectory distributorDirectory, ReceiverDirectory receiverDirectory, DriverDirectory driverDirectory, ClerkDirectory clerkDirectory,
             Contribution contribution, StoreDirectory storeDirectory, DeliveryAdminDirectory deliveryAdminDirectory, RegistrationDirectory registrationDirectory) {
@@ -64,15 +64,15 @@ public class System extends Organization{
         this.registrationDirectory = registrationDirectory;
     }
 
-    public static System getInstance() {
+    public static AppSystem getInstance() {
         if (business == null) {
             business = new EcoSystem();
         }
         return business;
     }
 
-    public static void setInstance(System business) {
-        System.business = business;
+    public static void setInstance(AppSystem business) {
+        AppSystem.business = business;
     }
 
     public VolunteerDirectory getVolunteerDirectory() {
@@ -207,7 +207,7 @@ public class System extends Organization{
         return roleList;
     }
 
-    private System() {
+    private AppSystem() {
         super(null);
         // networkList=new ArrayList<Network>();
     }

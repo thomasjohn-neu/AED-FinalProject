@@ -4,12 +4,15 @@
  */
 package models.Role;
 
+import javax.swing.JPanel;
+import models.Person.Person;
+
 /**
  *
  * @author thomas
  */
 public class StoreAdminRole extends Role {
-    public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account, EcoSystem business) {
+    public JPanel createWorkArea(JPanel userProcessContainer, Person account, EcoSystem business) {
         return new StoreAdminAreaJPanel(userProcessContainer, account, business);
     }
 }
