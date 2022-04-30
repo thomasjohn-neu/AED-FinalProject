@@ -6,12 +6,14 @@ package models;
 
 import java.util.ArrayList;
 import models.Contribution.Contribution;
+import models.Contributor.ContributorDirectory;
 import models.Customer.CustomerDirectory;
 import models.DeliveryAdmin.DeliveryAdminDirectory;
 import models.DeliveryAgency.ClerkDirectory;
 import models.DeliveryAgency.DriverDirectory;
 import models.DeliveryAgent.DeliveryAgentDirectory;
 import models.DeliveryMan.DeliveryManDirectory;
+import models.Distributor.DistributorDirectory;
 import models.Receiver.ReceiverDirectory;
 import models.Registration.RegistrationDirectory;
 import models.Restaurant.RestaurantDirectory;
