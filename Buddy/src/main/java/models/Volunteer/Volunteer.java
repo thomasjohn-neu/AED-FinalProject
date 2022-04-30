@@ -4,6 +4,8 @@
  */
 package models.Volunteer;
 
+import models.TaskQueue.TaskQueue;
+
 /**
  *
  * @author naina
@@ -11,7 +13,7 @@ package models.Volunteer;
 public class Volunteer {
     
     int id = 201;
-    private WorkQueue workqueue;
+    private TaskQueue workqueue;
     private String Name;
     private String UserName;
     private String password;
@@ -122,9 +124,9 @@ public class Volunteer {
         this.photo = imgPath;
     }
 
-    public WorkQueue getWorkqueue() {
+    public TaskQueue getWorkqueue() {
         if (this.workqueue == null) {
-            this.workqueue = new WorkQueue();
+            this.workqueue = new TaskQueue();
         }
 
         return this.workqueue;
