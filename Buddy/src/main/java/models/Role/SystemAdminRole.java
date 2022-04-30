@@ -5,6 +5,7 @@
 package models.Role;
 
 import javax.swing.JPanel;
+import models.AppSystem;
 import models.Person.Person;
 
 /**
@@ -12,7 +13,7 @@ import models.Person.Person;
  * @author thomas
  */
 public class SystemAdminRole {
-    public JPanel createWorkArea(JPanel userProcessContainer, Person account, System system) {
+    public JPanel createWorkArea(JPanel userProcessContainer, Person account, AppSystem system) {
         return new SystemAdminWorkAreaJPanel(userProcessContainer, account, system);
     }
 }

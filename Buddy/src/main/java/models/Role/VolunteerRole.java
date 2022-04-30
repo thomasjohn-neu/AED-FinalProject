@@ -5,6 +5,7 @@
 package models.Role;
 
 import javax.swing.JPanel;
+import models.AppSystem;
 import models.Person.Person;
 
 /**
@@ -12,7 +13,7 @@ import models.Person.Person;
  * @author thomas
  */
 public class VolunteerRole extends Role{
-    public JPanel createWorkArea(JPanel userProcessContainer, Person account, System business) {
+    public JPanel createWorkArea(JPanel userProcessContainer, Person account, AppSystem business) {
         return new VolunteerAreaJPanel(userProcessContainer, account, business);
     }
 }
