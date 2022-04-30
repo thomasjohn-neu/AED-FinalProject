@@ -75,7 +75,7 @@ public class AppSystem extends Organization{
 
     public static AppSystem getInstance() {
         if (business == null) {
-            business = new EcoSystem();
+            business = new AppSystem();
         }
         return business;
     }
