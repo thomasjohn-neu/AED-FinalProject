@@ -12,7 +12,7 @@
 // * @author thomas
 // */
 //public class CustomerRole extends Role {
-//   public JPanel createWorkArea(JPanel userProcessContainer, Person account, EcoSystem business) {
+//   public JPanel createWorkArea(JPanel userProcessContainer, Person account, AppSystem business) {
 //        return new CustomerAreaJPanel(userProcessContainer, account);
 //   }
 //    

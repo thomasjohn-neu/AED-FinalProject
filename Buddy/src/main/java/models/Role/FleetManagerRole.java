@@ -12,7 +12,7 @@
 // * @author thomas
 // */
 //public class FleetManagerRole {
-//      public JPanel createWorkArea(JPanel userProcessContainer, Person account, EcoSystem business) {
+//      public JPanel createWorkArea(JPanel userProcessContainer, Person account, AppSystem business) {
 //        return new FleetManagerWorkArea(userProcessContainer, account, business);
 //    }
 //

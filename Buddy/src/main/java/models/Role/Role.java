@@ -5,6 +5,7 @@
 package models.Role;
 
 import javax.swing.JPanel;
+import models.AppSystem;
 import models.Person.Person;
 
 /**
@@ -43,7 +44,7 @@ public abstract class Role {
         }
     }
     
-    public abstract JPanel createWorkArea(JPanel userProcessContainer, Person account, System business);
+    public abstract JPanel createWorkArea(JPanel userProcessContainer, Person account, AppSystem business);
 
     @Override
     public String toString() {

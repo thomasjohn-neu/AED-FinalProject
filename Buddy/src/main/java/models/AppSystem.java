@@ -9,10 +9,12 @@ import models.Contribution.Contribution;
 import models.Customer.CustomerDirectory;
 import models.DeliveryAdmin.DeliveryAdminDirectory;
 import models.DeliveryAgency.ClerkDirectory;
+import models.DeliveryAgency.DriverDirectory;
 import models.Role.Role;
 import models.Role.SystemAdminRole;
 import models.Store.StoreDirectory;
 import models.StoreAdmin.StoreAdminDirectory;
+import models.TaskQueue.TaskQueue;
 import models.Volunteer.VolunteerDirectory;
 
 /**
@@ -35,7 +37,7 @@ public class AppSystem extends Organization{
     private ClerkDirectory clerkDirectory;
     private Contribution contribution;
     private StoreDirectory storeDirectory;
-    private WorkQueue workQueue;
+    private TaskQueue workQueue;
     private DeliveryAdminDirectory deliveryAdminDirectory;
     private RegistrationDirectory registrationDirectory;
 
