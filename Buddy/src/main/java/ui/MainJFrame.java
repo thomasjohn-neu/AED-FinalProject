@@ -1,17 +1,15 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package ui;
 
-import models.DB4OUtils.DB4OUtils;
-
-import models.Organization;
-import models.Person.Person;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import models.AppSystem;
+import models.DB4OUtils.DB4OUtils;
+import models.Person.Person;
 import ui.Registration.RegistrationJPanel;
 
 /**
@@ -23,13 +21,12 @@ public class MainJFrame extends javax.swing.JFrame {
     /**
      * Creates new form MainJFrame
      */
+    
     private AppSystem system;
     private DB4OUtils dB4OUtil = DB4OUtils.getInstance();
-
+    
     public MainJFrame() {
         initComponents();
-        system = dB4OUtil.retrieveSystem();
-        this.setSize(1680, 1050);
     }
 
     /**
@@ -50,22 +47,21 @@ public class MainJFrame extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         passwordField = new javax.swing.JPasswordField();
         btnRegister = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
         topNavJPanel = new javax.swing.JPanel();
         logoutJButton = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         container = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        loginJPanel.setBackground(new java.awt.Color(48, 47, 67));
+        loginJPanel.setBackground(new java.awt.Color(243, 244, 246));
 
         loginJButton.setBackground(new java.awt.Color(67, 0, 163));
         loginJButton.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         loginJButton.setForeground(new java.awt.Color(255, 255, 255));
-        loginJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/login.png"))); // NOI18N
         loginJButton.setText("Login");
         loginJButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         loginJButton.setMaximumSize(new java.awt.Dimension(110, 30));
@@ -76,7 +72,7 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-        userNameJPanel.setBackground(new java.awt.Color(48, 47, 67));
+        userNameJPanel.setBackground(new java.awt.Color(85, 133, 239));
 
         userNameJTextField.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
 
@@ -105,7 +101,7 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel1.setBackground(new java.awt.Color(48, 47, 67));
+        jPanel1.setBackground(new java.awt.Color(85, 133, 239));
 
         jLabel2.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -134,9 +130,8 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        btnRegister.setBackground(new java.awt.Color(255, 255, 255));
+        btnRegister.setBackground(new java.awt.Color(85, 133, 239));
         btnRegister.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        btnRegister.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/register.png"))); // NOI18N
         btnRegister.setText("Register");
         btnRegister.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnRegister.setMaximumSize(new java.awt.Dimension(110, 30));
@@ -147,12 +142,16 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
+        jLabel3.setText("  ");
+
         javax.swing.GroupLayout loginJPanelLayout = new javax.swing.GroupLayout(loginJPanel);
         loginJPanel.setLayout(loginJPanelLayout);
         loginJPanelLayout.setHorizontalGroup(
             loginJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(loginJPanelLayout.createSequentialGroup()
-                .addGap(0, 279, Short.MAX_VALUE)
+                .addGap(58, 58, 58)
+                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 67, Short.MAX_VALUE)
                 .addGroup(loginJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(userNameJPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -167,26 +166,30 @@ public class MainJFrame extends javax.swing.JFrame {
         loginJPanelLayout.setVerticalGroup(
             loginJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(loginJPanelLayout.createSequentialGroup()
-                .addGap(134, 134, 134)
-                .addComponent(userNameJPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(46, 46, 46)
+                .addGroup(loginJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(loginJPanelLayout.createSequentialGroup()
+                        .addGap(142, 142, 142)
+                        .addComponent(userNameJPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(loginJPanelLayout.createSequentialGroup()
+                        .addGap(112, 112, 112)
+                        .addComponent(jLabel3)))
+                .addGap(18, 18, 18)
                 .addGroup(loginJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnRegister, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(loginJButton, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 238, Short.MAX_VALUE))
+                .addGap(0, 277, Short.MAX_VALUE))
         );
 
         getContentPane().add(loginJPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 82, 910, 560));
 
-        topNavJPanel.setBackground(new java.awt.Color(255, 255, 255));
+        topNavJPanel.setBackground(new java.awt.Color(50, 60, 88));
         topNavJPanel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED, java.awt.Color.lightGray, java.awt.Color.lightGray, java.awt.Color.lightGray, java.awt.Color.lightGray));
 
         logoutJButton.setBackground(new java.awt.Color(67, 0, 163));
         logoutJButton.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         logoutJButton.setForeground(new java.awt.Color(255, 255, 255));
-        logoutJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/logout.png"))); // NOI18N
         logoutJButton.setText("Logout");
         logoutJButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         logoutJButton.setEnabled(false);
@@ -196,32 +199,27 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(50, 60, 88));
 
         jLabel4.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
-        jLabel4.setText("Feed US");
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/logo-feed-us_1.png"))); // NOI18N
-        jLabel3.setText("  ");
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setText("Buddy");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel4)
-                .addGap(4, 4, 4))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(78, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel4))
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(28, Short.MAX_VALUE)
+                .addComponent(jLabel4)
+                .addGap(17, 17, 17))
         );
 
         javax.swing.GroupLayout topNavJPanelLayout = new javax.swing.GroupLayout(topNavJPanel);
@@ -231,20 +229,19 @@ public class MainJFrame extends javax.swing.JFrame {
             .addGroup(topNavJPanelLayout.createSequentialGroup()
                 .addGap(43, 43, 43)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 529, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 468, Short.MAX_VALUE)
                 .addComponent(logoutJButton)
                 .addGap(37, 37, 37))
         );
         topNavJPanelLayout.setVerticalGroup(
             topNavJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(topNavJPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(topNavJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(topNavJPanelLayout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addComponent(logoutJButton)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(16, 16, 16)
+                .addComponent(logoutJButton)
+                .addContainerGap(31, Short.MAX_VALUE))
+            .addGroup(topNavJPanelLayout.createSequentialGroup()
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         getContentPane().add(topNavJPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 910, 80));
@@ -353,6 +350,7 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
     }
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnRegister;
     private javax.swing.JPanel container;
