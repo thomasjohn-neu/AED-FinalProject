@@ -21,7 +21,7 @@ import models.SystemConfig;
  * @author thomas
  */
 public class DB4OUtils {
-    private static final String FILENAME = Paths.get("Databank.db4o").toAbsolutePath().toString();// path to the data store
+    private static final String FILENAME = Paths.get("Database.db4o").toAbsolutePath().toString();// path to the data store
     private static DB4OUtils dB4OUtil;
     
     public synchronized static DB4OUtils getInstance(){
