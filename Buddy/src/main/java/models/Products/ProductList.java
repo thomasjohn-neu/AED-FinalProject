@@ -4,10 +4,34 @@
  */
 package models.Products;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author thomas
  */
 public class ProductList {
+    ArrayList<Product> productList;
+
+    public ProductList() {
+        productList=new ArrayList<Product>();
+    }
+
+    public ArrayList<Product> getProductList() {
+        return productList;
+    }
+
+    public void setProductList(ArrayList<Product> productList) {
+        this.productList = productList;
+    }
     
+    public void addProducttoList(Product product)
+    {
+        productList.add(product);
+    }
+            
+    
+    public void removeProductfromList(Product product){
+        productList.remove(product);
+    }
 }
