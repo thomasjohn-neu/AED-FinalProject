@@ -8,14 +8,15 @@ import java.util.ArrayList;
 import models.Employee.EmployeeDirectory;
 import models.Person.PersonDirectory;
 import models.Role.Role;
+import models.TaskQueue.TaskQueue;
 
 /**
  *
  * @author thomas
  */
-public class Organization {
+public abstract class Organization {
     private String name;
-    private WorkQueue workQueue;
+    private TaskQueue workQueue;
     private EmployeeDirectory employeeDirectory;
     private PersonDirectory userAccountDirectory;
     private int organizationID;
@@ -47,7 +48,7 @@ public class Organization {
     
     public Organization(String name) {
         this.name = name;
-        workQueue = new WorkQueue();
+        workQueue = new TaskQueue();
         employeeDirectory = new EmployeeDirectory();
         userAccountDirectory = new PersonDirectory();
         organizationID = counter;
@@ -59,7 +60,7 @@ public class Organization {
     
     public abstract ArrayList<Role> getSupportedRole();
     
-    public UserAccountDirectory getUserAccountDirectory() {
+    public PersonDirectory getUserAccountDirectory() {
         return userAccountDirectory;
     }
 
@@ -75,7 +76,7 @@ public class Organization {
         return name;
     }
 
-    public WorkQueue getWorkQueue() {
+    public TaskQueue getWorkQueue() {
         return workQueue;
     }
 
@@ -83,7 +84,7 @@ public class Organization {
         this.name = name;
     }
 
-    public void setWorkQueue(WorkQueue workQueue) {
+    public void setWorkQueue(TaskQueue workQueue) {
         this.workQueue = workQueue;
     }
 

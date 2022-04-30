@@ -4,10 +4,15 @@
  */
 package models.Role;
 
+import javax.swing.JPanel;
+import models.Person.Person;
+
 /**
  *
  * @author thomas
  */
-public class ContributorRole {
-    
+public class ContributorRole extends Role {
+    public JPanel createWorkArea(JPanel userProcessContainer, Person account, EcoSystem business) {
+        return new ContributorAreaJPanel(userProcessContainer, account, business);
+    }
 }

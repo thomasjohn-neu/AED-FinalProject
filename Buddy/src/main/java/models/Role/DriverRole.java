@@ -4,10 +4,15 @@
  */
 package models.Role;
 
+import javax.swing.JPanel;
+import models.Person.Person;
+
 /**
  *
  * @author thomas
  */
-public class DriverRole {
-    
+public class DriverRole extends Role {
+    public JPanel createWorkArea(JPanel userProcessContainer, Person account, EcoSystem business) {
+        return new DriverWorkAreaJPanel(userProcessContainer, account, business);
+    }
 }

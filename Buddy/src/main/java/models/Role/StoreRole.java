@@ -4,10 +4,15 @@
  */
 package models.Role;
 
+import javax.swing.JPanel;
+import models.Person.Person;
+
 /**
  *
  * @author thomas
  */
 public class StoreRole {
-    
+    public JPanel createWorkArea(JPanel userProcessContainer, Person account, System business) {
+        return new ManageStoreJPanel(userProcessContainer, account, business);
+    }  
 }

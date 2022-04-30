@@ -4,10 +4,15 @@
  */
 package models.Role;
 
+import javax.swing.JPanel;
+import models.Person.Person;
+
 /**
  *
  * @author thomas
  */
-public class DeliveryAgentRole {
-    
+public class DeliveryAgentRole extends Role {
+    public JPanel createWorkArea(JPanel userProcessContainer, Person account, EcoSystem business) {
+        return new DeliveryAgentWorkArea(userProcessContainer, account, business);
+    }
 }

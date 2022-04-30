@@ -4,13 +4,14 @@
  */
 package models.DeliveryAgency;
 
-import models.WorkQueue.WorkQueue;
+import models.TaskQueue.TaskQueue;
 import java.util.Date;
+import models.Person.Person;
 /**
  *
  * @author naina
  */
-public class Clerk extends Person {
+public class Clerk extends User {
     public long ssn;
     public int ClerkID;
     public String InspectionLicenseNumber;
@@ -19,7 +20,7 @@ public class Clerk extends Person {
     String photo;
     Date JoiningDate;
     Date SeperationDate;
-    WorkQueue workQueue;
+    TaskQueue workQueue;
     String Status = "Available";
 
     public Clerk() {
@@ -89,15 +90,15 @@ public class Clerk extends Person {
         this.SeperationDate = SeperationDate;
     }
 
-    public WorkQueue getWorkQueue() {
+    public TaskQueue getWorkQueue() {
         if (this.workQueue == null) {
-            this.workQueue = new WorkQueue();
+            this.workQueue = new TaskQueue();
         }
 
         return this.workQueue;
     }
 
-    public void setWorkQueue(WorkQueue workQueue) {
+    public void setWorkQueue(TaskQueue workQueue) {
         this.workQueue = workQueue;
     }
 

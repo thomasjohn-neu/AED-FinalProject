@@ -4,7 +4,9 @@
  */
 package models.DeliveryAgency;
 
-import models.WorkQueue.WorkQueue;
+import models.Employee.EmployeeDirectory;
+import models.Person.Person;
+import models.TaskQueue.TaskQueue;
 /**
  *
  * @author naina
@@ -15,7 +17,7 @@ public class AgencyAdmin extends Person {
     EmployeeDirectory employeeList = new EmployeeDirectory();
     DriverDirectory driverList = new DriverDirectory();
     ClerkDirectory clerkList = new ClerkDirectory();
-    WorkQueue workQueue = new WorkQueue();
+    TaskQueue workQueue = new TaskQueue();
     int workRequestCount = 0;
 
     public AgencyAdmin() {
@@ -61,11 +63,11 @@ public class AgencyAdmin extends Person {
         this.clerkList = clerkList;
     }
 
-    public WorkQueue getWorkQueue() {
+    public TaskQueue getWorkQueue() {
         return this.workQueue;
     }
 
-    public void setWorkQueue(WorkQueue workQueue) {
+    public void setWorkQueue(TaskQueue workQueue) {
         this.workQueue = workQueue;
     }
 }

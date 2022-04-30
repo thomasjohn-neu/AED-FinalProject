@@ -4,10 +4,17 @@
  */
 package models.Role;
 
+import javax.swing.JPanel;
+import models.Person.Person;
+    
 /**
  *
  * @author thomas
  */
-public class DeliveryManRole {
+public class DeliveryManRole extends Role {
+    @Override
+    public JPanel createWorkArea(JPanel userProcessContainer, Person account, EcoSystem business) {
+        return new DeliveryManWorkAreaJPanel(userProcessContainer,account,business);//To change body of generated methods, choose Tools | Templates.
+    }
     
 }

@@ -12,7 +12,7 @@ import models.Person.Person;
  * @author thomas
  */
 public class VolunteerRole extends Role{
-    public JPanel createWorkArea(JPanel userProcessContainer, Person account, EcoSystem business) {
+    public JPanel createWorkArea(JPanel userProcessContainer, Person account, System business) {
         return new VolunteerAreaJPanel(userProcessContainer, account, business);
     }
 }
