@@ -37,7 +37,7 @@ import javax.mail.internet.MimeMessage;
 
 /**
  *
- * @author murali
+ * @author thomas
  */
 public class RegistrationJPanel extends javax.swing.JPanel {
 
