@@ -53,7 +53,7 @@ public class DistributorAreaJPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         lblName = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(48, 47, 67));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         tblDistributor.setModel(new javax.swing.table.DefaultTableModel(
@@ -84,7 +84,6 @@ public class DistributorAreaJPanel extends javax.swing.JPanel {
         add(btnDeliver, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 320, 206, 36));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Distribution List");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 40, -1, -1));
 

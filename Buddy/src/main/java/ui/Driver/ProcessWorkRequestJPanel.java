@@ -50,7 +50,7 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
         btnBack1 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         submitJButton.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N

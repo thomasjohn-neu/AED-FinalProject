@@ -70,7 +70,7 @@ public class ManageClerkJPanel extends javax.swing.JPanel {
         btnBack1 = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         tblClerks.setModel(new javax.swing.table.DefaultTableModel(

@@ -47,7 +47,7 @@ public class DeliveryAgentWorkArea extends javax.swing.JPanel {
         btnWorkRequests = new javax.swing.JButton();
         btnClerks = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N

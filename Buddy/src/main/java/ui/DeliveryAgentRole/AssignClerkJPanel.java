@@ -57,7 +57,7 @@ public class AssignClerkJPanel extends javax.swing.JPanel {
         btnAssign = new javax.swing.JButton();
         btnBack1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
