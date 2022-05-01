@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author murali
+ * @author naina
  */
 public class AddStoreJPanel extends javax.swing.JPanel {
 

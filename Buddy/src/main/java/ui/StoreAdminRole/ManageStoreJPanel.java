@@ -12,7 +12,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author murali
+ * @author naina
  */
 public class ManageStoreJPanel extends javax.swing.JPanel {
 
