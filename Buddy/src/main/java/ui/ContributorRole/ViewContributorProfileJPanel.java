@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author murali
+ * @author naina
  */
 public class ViewContributorProfileJPanel extends javax.swing.JPanel {
 
