@@ -29,18 +29,23 @@
             <version>1.4</version>
         </dependency>
         <dependency>
-            <groupId>javax</groupId>
+            <groupId>jxbrowserswing</groupId>
+            <artifactId>jxbrowserswing</artifactId>
+            <version>7.24.4</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.mail</groupId>
             <artifactId>javax.mail</artifactId>
-            <version>1</version>
+            <version>1.6.2</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>javax.activation</artifactId>
+            <version>1.2.0</version>
         </dependency>
         <dependency>
             <groupId>jxbrowser</groupId>
             <artifactId>jxbrowser</artifactId>
-            <version>7.24.4</version>
-        </dependency>
-        <dependency>
-            <groupId>jxbrowserswing</groupId>
-            <artifactId>jxbrowserswing</artifactId>
             <version>7.24.4</version>
         </dependency>
     </dependencies>
