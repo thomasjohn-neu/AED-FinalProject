@@ -68,7 +68,6 @@ public class ManageRegistrationsJPanel extends javax.swing.JPanel {
         btnApprove = new javax.swing.JButton();
         btnReject = new javax.swing.JButton();
         btnBack1 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(243, 244, 246));
         setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -126,14 +125,6 @@ public class ManageRegistrationsJPanel extends javax.swing.JPanel {
             }
         });
         add(btnBack1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, 110, -1));
-
-        jButton1.setText("jButton1");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 340, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnApproveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnApproveActionPerformed
@@ -309,102 +300,11 @@ public class ManageRegistrationsJPanel extends javax.swing.JPanel {
         layout.previous(userProcessContainer);
     }//GEN-LAST:event_btnBack1ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       int selectedRowIndex = tblRegistrations.getSelectedRow();
-
-        if (selectedRowIndex < 0) {
-            JOptionPane.showMessageDialog(this, "Please select a user");
-            return;
-        }
-
-        DefaultTableModel model = (DefaultTableModel) tblRegistrations.getModel();
-
-        String roleType = (String) model.getValueAt(selectedRowIndex, 0);
-        String userName = (String) model.getValueAt(selectedRowIndex, 2);
-        String phone = (String) model.getValueAt(selectedRowIndex, 5);
-        String email = (String) model.getValueAt(selectedRowIndex, 4);
-        String carrier = (String) model.getValueAt(selectedRowIndex, 6);
-        String curStatus = (String) model.getValueAt(selectedRowIndex, 7);
-
-        for (Registration reg : system.getRegistrationDirectory().getRegistrationList()) {
-
-            if (userName.equals(reg.getUserName())) {
-
-                if (roleType.equals("Volunteer")) {
-                    Person ua1 = system.getUserAccountDirectory().createUserAccount(reg.getName(), reg.getUserName(), reg.getPassword(), null, new VolunteerRole());
-                    Volunteer volunteer = system.getVolunteerDirectory().createVolunteer(reg.getName(), reg.getRole(), reg.getUserName(), reg.getPassword(), reg.getEmail(), reg.getPhone(), reg.getCarrier(), reg.getLocation(), reg.getPhoto());
-                } else if (roleType.equals("Contributor")) {
-                    Person ua1 = system.getUserAccountDirectory().createUserAccount(reg.getName(), reg.getUserName(), reg.getPassword(), null, new ContributorRole());
-                    Contributor contributor = system.getContributorDirectory().createContributor(reg.getName(), reg.getRole(), reg.getUserName(), reg.getPassword(), reg.getEmail(), reg.getPhone(), reg.getCarrier(), reg.getLocation(), reg.getPhoto());
-                } else if (roleType.equals("Receiver")) {
-                    Person ua1 = system.getUserAccountDirectory().createUserAccount(reg.getName(), reg.getUserName(), reg.getPassword(), null, new ReceiverRole());
-                    Receiver receiver = system.getReceiverDirectory().createReceiver(reg.getName(), reg.getRole(), reg.getUserName(), reg.getPassword(), reg.getEmail(), reg.getPhone(), reg.getCarrier(), reg.getLocation(), reg.getPhoto());
-                } else {
-                    JOptionPane.showMessageDialog(null, "No relevant role found");
-                }
-                if (curStatus.equals("Approved")) {
-                    JOptionPane.showMessageDialog(null, "User already Approved");
-                    return;
-                }
-                //Email and SMS Integration
-
-                String toEmail = email;
-                JOptionPane.showMessageDialog(null, email);
-                String fromEmail = "dummyprojectuser@gmail.com";
-                String fromEmailPassword = "Testpassword";
-                String subject = "Registration Approved";
-
-                String textSms = phone;
-                if (carrier.equals("ATT")) {
-                    textSms = textSms + "@txt.att.net";
-                } else if (carrier.equals("Verizon")) {
-                    textSms = textSms + "@vmobl.com";
-                } else if (carrier.equals("Sprint")) {
-                    textSms = textSms + "@messaging.sprintpcs.com";
-                } else if (carrier.equals("TMobile")) {
-                    textSms = textSms + "@tmomail.net";
-                }
-
-                Properties properties = new Properties();
-                properties.put("mail.smtp.auth", "true");
-                properties.put("mail.smtp.starttls.enable", "true");
-                properties.put("mail.smtp.host", "smtp.gmail.com");
-                properties.put("mail.smtp.port", "587");
-
-                properties.put("mail.smtp.ssl.trust", "smtp.gmail.com");
-                properties.put("mail.smtp.ssl.protocols", "TLSv1.2");
-
-                Session session = Session.getDefaultInstance(properties, new javax.mail.Authenticator() {
-                    protected PasswordAuthentication getPasswordAuthentication() {
-                        return new PasswordAuthentication("dummyprojectuser@gmail.com", "Testpassword");
-                    }
-                });
-
-                try {
-                    MimeMessage message = new MimeMessage(session);
-                    message.setFrom(new InternetAddress(fromEmail));
-                    message.addRecipient(Message.RecipientType.TO, new InternetAddress(toEmail));
-                    message.addRecipient(Message.RecipientType.TO, new InternetAddress(textSms));
-                    message.setSubject(subject);
-                    message.setText("Welome to the Team! Please log in to our portal and start making a difference :)");
-                    Transport.send(message);
-
-                } catch (Exception e) {
-                    JOptionPane.showMessageDialog(null, e);
-                    System.out.println(e);
-                }
-                reg.setStatus("Approved");
-                populateRegistrations();
-            }
-        }
-    }//GEN-LAST:event_jButton1ActionPerformed
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnApprove;
     private javax.swing.JButton btnBack1;
     private javax.swing.JButton btnReject;
-    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTable tblRegistrations;

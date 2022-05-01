@@ -189,7 +189,7 @@ public class MapJPanel extends javax.swing.JPanel {
             frame.setSize(800, 500);
             frame.setVisible(true);
 
-            browser.navigation().loadUrl("file:///Users/thomas/NetBeansProjects/GoogleMap/map.html");
+            browser.navigation().loadUrl("file:///Users/thomas/Downloads/GoogleMap/map.html");
         });
     }
 }

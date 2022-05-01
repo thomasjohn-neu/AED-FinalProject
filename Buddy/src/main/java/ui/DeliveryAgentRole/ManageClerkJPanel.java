@@ -518,9 +518,9 @@ public class ManageClerkJPanel extends javax.swing.JPanel {
         model.setRowCount(0);
 
         // Updating the contributorTable
-           for (Person admin : system.getUserAccountDirectory().getUserAccountList()) {
+//           for (Person admin : system.getUserAccountDirectory().getUserAccountList()) {
                
-               if(admin.getUsername().equals(user.getUsername())) {
+//               if(admin.getUsername().equals(user.getUsername())) {
                   // System.out.println(admin.getUsername()+" "+user.getUsername());
     
                 Object[] row = new Object[3];
@@ -537,8 +537,8 @@ public class ManageClerkJPanel extends javax.swing.JPanel {
                 model.addRow(row);
                 
                 }
-            }
+//            }
 
-        }   
+//        }   
     }
 }

@@ -521,9 +521,9 @@ public class ManageDriverJPanel extends javax.swing.JPanel {
 
         model.setRowCount(0);
         
-          for (Person admin : system.getUserAccountDirectory().getUserAccountList()) {
+//          for (Person admin : system.getUserAccountDirectory().getUserAccountList()) {
                
-               if(admin.getUsername().equals(user.getUsername())) {
+//               if(admin.getUsername().equals(user.getUsername())) {
                   //System.out.println(admin.getUsername()+" "+user.getUsername());
     
                 Object[] row = new Object[3];
@@ -539,8 +539,8 @@ public class ManageDriverJPanel extends javax.swing.JPanel {
                 model.addRow(row);
                 
                 }
-            }
+//            }
 
-        }    
+//        }    
     }
 }
