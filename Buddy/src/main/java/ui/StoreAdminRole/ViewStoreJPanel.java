@@ -132,7 +132,7 @@ public class ViewStoreJPanel extends javax.swing.JPanel {
 
         for (Person user : system.getUserAccountDirectory().getUserAccountList()) {
 
-            if ("Business.Role.StoreRole".equals(user.getRole().getClass().getName())) {
+            if ("models.Role.StoreRole".equals(user.getRole().getClass().getName())) {
                     Object[] row = new Object[3];
 
                     row[0] = user.getName();

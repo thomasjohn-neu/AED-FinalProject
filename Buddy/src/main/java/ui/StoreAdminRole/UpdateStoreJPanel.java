@@ -326,7 +326,7 @@ public class UpdateStoreJPanel extends javax.swing.JPanel {
 
         for (Person user : system.getUserAccountDirectory().getUserAccountList()) {
             System.out.println(user.getRole().getClass().getName());
-            if ("Business.Role.StoreRole".equals(user.getRole().getClass().getName())) {
+            if ("models.Role.StoreRole".equals(user.getRole().getClass().getName())) {
                 Object[] row = new Object[3];
 
                 row[0] = user.getName();

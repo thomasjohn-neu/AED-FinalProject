@@ -147,7 +147,7 @@ public class DeliveryAdminAreaJPanel extends javax.swing.JPanel {
 
         for (Store admin : system.getStoreDirectory().getStoreDirectory()) {
 
-            if ("Business.Role.DeliveryAdminRole".equals(user.getRole().getClass().getName())) {
+            if ("models.Role.DeliveryAdminRole".equals(user.getRole().getClass().getName())) {
                 for (Contribution contribution : admin.getContribution()) {
                     Object[] row = new Object[5];
                     row[0] = contribution;
@@ -161,7 +161,7 @@ public class DeliveryAdminAreaJPanel extends javax.swing.JPanel {
             }
         }
         for (Contributor admin : system.getContributorDirectory().getContributorList()) {
-            if ("Business.Role.DeliveryAdminRole".equals(user.getRole().getClass().getName())) {
+            if ("models.Role.DeliveryAdminRole".equals(user.getRole().getClass().getName())) {
                 for (Contribution contribution : admin.getContribution()) {
                     Object[] row = new Object[5];
                     row[0] = contribution;

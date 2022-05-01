@@ -168,7 +168,7 @@ public class ApproveRejectStoreContributionJPanel extends javax.swing.JPanel {
 
         for (Store admin : system.getStoreDirectory().getStoreDirectory()) {
 
-            if ("Business.Role.VolunteerRole".equals(user.getRole().getClass().getName())) {
+            if ("models.Role.VolunteerRole".equals(user.getRole().getClass().getName())) {
                 for (Contribution contribution : admin.getContribution()) {
                     Object[] row = new Object[5];
                     row[0] = contribution;

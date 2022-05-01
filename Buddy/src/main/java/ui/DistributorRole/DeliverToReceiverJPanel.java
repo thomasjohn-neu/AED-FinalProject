@@ -206,7 +206,7 @@ public class DeliverToReceiverJPanel extends javax.swing.JPanel {
         // Updating the contributorTable
         for (Person user : business.getUserAccountDirectory().getUserAccountList()) {
 
-            if ("Business.Role.ReceiverRole".equals(user.getRole().getClass().getName())) {
+            if ("models.Role.ReceiverRole".equals(user.getRole().getClass().getName())) {
                 Object[] row = new Object[1];
 
                 row[0] = user;
