@@ -71,7 +71,7 @@ public class UpdateDetailsJPanel extends javax.swing.JPanel {
         btnUpdate = new javax.swing.JButton();
         btnBack1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
