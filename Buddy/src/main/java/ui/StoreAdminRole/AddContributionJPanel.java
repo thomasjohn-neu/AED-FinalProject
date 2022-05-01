@@ -83,8 +83,9 @@ public class AddContributionJPanel extends javax.swing.JPanel {
         jLabel8.setText("Expiry Date:");
         add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 260, -1, -1));
 
+        btnAdd.setBackground(new java.awt.Color(51, 102, 0));
         btnAdd.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
-        btnAdd.setForeground(new java.awt.Color(67, 0, 163));
+        btnAdd.setForeground(new java.awt.Color(255, 255, 255));
         btnAdd.setText("Add");
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,14 +94,16 @@ public class AddContributionJPanel extends javax.swing.JPanel {
         });
         add(btnAdd, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 310, 100, 40));
 
+        btnReset.setBackground(new java.awt.Color(51, 102, 0));
         btnReset.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        btnReset.setForeground(new java.awt.Color(255, 255, 255));
         btnReset.setText("Reset");
         btnReset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnResetActionPerformed(evt);
             }
         });
-        add(btnReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 310, -1, -1));
+        add(btnReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 310, -1, 40));
 
         jLabel2.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel2.setText("Store Name:");
@@ -114,8 +117,9 @@ public class AddContributionJPanel extends javax.swing.JPanel {
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(329, 137, -1, -1));
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 200, -1, -1));
 
-        btnBack1.setBackground(new java.awt.Color(251, 129, 131));
+        btnBack1.setBackground(new java.awt.Color(51, 102, 0));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        btnBack1.setForeground(new java.awt.Color(255, 255, 255));
         btnBack1.setText("Back");
         btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -127,6 +131,7 @@ public class AddContributionJPanel extends javax.swing.JPanel {
         add(btnBack1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 110, -1));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText("Add Contribution");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 40, -1, -1));
     }// </editor-fold>//GEN-END:initComponents

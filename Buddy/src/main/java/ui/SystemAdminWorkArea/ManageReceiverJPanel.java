@@ -397,8 +397,9 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
 
         add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 460, 300, -1));
 
-        btnBack1.setBackground(new java.awt.Color(255, 255, 255));
+        btnBack1.setBackground(new java.awt.Color(51, 102, 0));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        btnBack1.setForeground(new java.awt.Color(255, 255, 255));
         btnBack1.setText("Back");
         btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -409,7 +410,7 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
         });
         add(btnBack1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, 110, -1));
 
-        btnRefresh1.setBackground(new java.awt.Color(67, 0, 163));
+        btnRefresh1.setBackground(new java.awt.Color(51, 102, 0));
         btnRefresh1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnRefresh1.setForeground(new java.awt.Color(255, 255, 255));
         btnRefresh1.setText("Refresh");
@@ -421,7 +422,9 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
         });
         add(btnRefresh1, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 10, -1, -1));
 
+        jLabel4.setBackground(new java.awt.Color(243, 244, 246));
         jLabel4.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(102, 102, 102));
         jLabel4.setText("Receiver List");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 90, -1, -1));
     }// </editor-fold>//GEN-END:initComponents

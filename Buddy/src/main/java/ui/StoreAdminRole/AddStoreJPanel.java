@@ -161,11 +161,13 @@ public class AddStoreJPanel extends javax.swing.JPanel {
         add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 170, -1, 40));
 
         jLabel4.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(102, 102, 102));
         jLabel4.setText("Add Store Admin");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 110, -1, -1));
 
+        btnAdd.setBackground(new java.awt.Color(51, 102, 0));
         btnAdd.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
-        btnAdd.setForeground(new java.awt.Color(67, 0, 163));
+        btnAdd.setForeground(new java.awt.Color(255, 255, 255));
         btnAdd.setText("Create");
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -193,8 +195,9 @@ public class AddStoreJPanel extends javax.swing.JPanel {
         comboLocation.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         add(comboLocation, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 270, 137, -1));
 
-        btnBack1.setBackground(new java.awt.Color(255, 255, 255));
+        btnBack1.setBackground(new java.awt.Color(51, 102, 0));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        btnBack1.setForeground(new java.awt.Color(255, 255, 255));
         btnBack1.setText("Back");
         btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));

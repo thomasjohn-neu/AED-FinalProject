@@ -74,6 +74,7 @@ public class ManageRegistrationsJPanel extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText("Manage New Registrations");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 50, -1, -1));
 
@@ -93,9 +94,9 @@ public class ManageRegistrationsJPanel extends javax.swing.JPanel {
 
         add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 136, 790, 188));
 
-        btnApprove.setBackground(new java.awt.Color(255, 255, 255));
+        btnApprove.setBackground(new java.awt.Color(51, 102, 0));
         btnApprove.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        btnApprove.setForeground(new java.awt.Color(67, 0, 163));
+        btnApprove.setForeground(new java.awt.Color(255, 255, 255));
         btnApprove.setText("Approve");
         btnApprove.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -104,8 +105,9 @@ public class ManageRegistrationsJPanel extends javax.swing.JPanel {
         });
         add(btnApprove, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 340, -1, -1));
 
+        btnReject.setBackground(new java.awt.Color(51, 102, 0));
         btnReject.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        btnReject.setForeground(new java.awt.Color(67, 0, 163));
+        btnReject.setForeground(new java.awt.Color(255, 255, 255));
         btnReject.setText("Reject");
         btnReject.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -114,8 +116,9 @@ public class ManageRegistrationsJPanel extends javax.swing.JPanel {
         });
         add(btnReject, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 340, -1, -1));
 
-        btnBack1.setBackground(new java.awt.Color(255, 255, 255));
+        btnBack1.setBackground(new java.awt.Color(51, 102, 0));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        btnBack1.setForeground(new java.awt.Color(255, 255, 255));
         btnBack1.setText("Back");
         btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));

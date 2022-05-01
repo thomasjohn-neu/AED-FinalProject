@@ -52,6 +52,7 @@ public class ViewStoreJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText("View Stores");
 
         tblStore.setModel(new javax.swing.table.DefaultTableModel(
@@ -67,8 +68,9 @@ public class ViewStoreJPanel extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(tblStore);
 
-        btnBack1.setBackground(new java.awt.Color(255, 255, 255));
+        btnBack1.setBackground(new java.awt.Color(51, 102, 0));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        btnBack1.setForeground(new java.awt.Color(255, 255, 255));
         btnBack1.setText("Back");
         btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));

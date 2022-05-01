@@ -53,18 +53,21 @@ public class ContributorAreaJPanel extends javax.swing.JPanel {
         jLabel1.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel1.setText("Hello There Contributor!");
 
+        btnAddContribution.setBackground(new java.awt.Color(51, 102, 0));
         btnAddContribution.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        btnAddContribution.setForeground(new java.awt.Color(67, 0, 163));
+        btnAddContribution.setForeground(new java.awt.Color(255, 255, 255));
         btnAddContribution.setText("Add Contribution");
         btnAddContribution.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnAddContribution.setPreferredSize(new java.awt.Dimension(271, 29));
         btnAddContribution.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAddContributionActionPerformed(evt);
             }
         });
 
+        btnViewContribution.setBackground(new java.awt.Color(51, 102, 0));
         btnViewContribution.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        btnViewContribution.setForeground(new java.awt.Color(67, 0, 163));
+        btnViewContribution.setForeground(new java.awt.Color(255, 255, 255));
         btnViewContribution.setText("View Contribution History");
         btnViewContribution.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnViewContribution.addActionListener(new java.awt.event.ActionListener() {
@@ -73,6 +76,8 @@ public class ContributorAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        viewProfile.setBackground(new java.awt.Color(51, 102, 0));
+        viewProfile.setForeground(new java.awt.Color(255, 255, 255));
         viewProfile.setText("View Profile");
         viewProfile.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -85,20 +90,17 @@ public class ContributorAreaJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(109, 109, 109)
+                .addGap(54, 54, 54)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 212, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(viewProfile, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(36, 36, 36))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnAddContribution, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(173, 173, 173))
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                    .addContainerGap(246, Short.MAX_VALUE)
-                    .addComponent(btnViewContribution)
-                    .addGap(175, 175, 175)))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(187, 187, 187)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(btnViewContribution, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnAddContribution, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(225, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -107,14 +109,11 @@ public class ContributorAreaJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
                     .addComponent(viewProfile, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(90, 90, 90)
+                .addGap(36, 36, 36)
                 .addComponent(btnAddContribution, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(190, Short.MAX_VALUE))
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                    .addContainerGap(248, Short.MAX_VALUE)
-                    .addComponent(btnViewContribution, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(122, 122, 122)))
+                .addGap(18, 18, 18)
+                .addComponent(btnViewContribution, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(165, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
