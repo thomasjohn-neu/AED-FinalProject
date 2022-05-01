@@ -100,7 +100,9 @@ public class RegistrationJPanel extends javax.swing.JPanel {
         jLabel1.setText("Manage Registrations");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 30, -1, -1));
 
+        btnRegister.setBackground(new java.awt.Color(51, 102, 0));
         btnRegister.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        btnRegister.setForeground(new java.awt.Color(255, 255, 255));
         btnRegister.setText("Register");
         btnRegister.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnRegister.addActionListener(new java.awt.event.ActionListener() {
