@@ -12,7 +12,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author yashwanthsridharan
+ * @author naina
  */
 public class ContributorAreaJPanel extends javax.swing.JPanel {
 
