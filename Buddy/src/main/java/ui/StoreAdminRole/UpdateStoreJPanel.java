@@ -69,7 +69,6 @@ public class UpdateStoreJPanel extends javax.swing.JPanel {
 
         btnUpdate.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         btnUpdate.setForeground(new java.awt.Color(67, 0, 163));
-        btnUpdate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/view.png"))); // NOI18N
         btnUpdate.setText("Update");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -183,7 +182,6 @@ public class UpdateStoreJPanel extends javax.swing.JPanel {
 
         btnConfirmUpdate.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         btnConfirmUpdate.setForeground(new java.awt.Color(67, 0, 163));
-        btnConfirmUpdate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/tick.png"))); // NOI18N
         btnConfirmUpdate.setText("Confirm");
         btnConfirmUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -194,7 +192,6 @@ public class UpdateStoreJPanel extends javax.swing.JPanel {
 
         btnBack1.setBackground(new java.awt.Color(255, 255, 255));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        btnBack1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/back.png"))); // NOI18N
         btnBack1.setText("Back");
         btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
