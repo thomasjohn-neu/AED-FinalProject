@@ -46,7 +46,7 @@ public class ContributorAreaJPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         btnAddContribution = new javax.swing.JButton();
         btnViewContribution = new javax.swing.JButton();
-        btnViewProfile = new javax.swing.JButton();
+        viewProfile = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(48, 47, 67));
 
@@ -54,7 +54,6 @@ public class ContributorAreaJPanel extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Hello There Contributor!");
 
-        btnAddContribution.setBackground(new java.awt.Color(255, 255, 255));
         btnAddContribution.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnAddContribution.setForeground(new java.awt.Color(67, 0, 163));
         btnAddContribution.setText("Add Contribution");
@@ -75,14 +74,10 @@ public class ContributorAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnViewProfile.setBackground(new java.awt.Color(255, 255, 255));
-        btnViewProfile.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        btnViewProfile.setForeground(new java.awt.Color(67, 0, 163));
-        btnViewProfile.setText("View Profile");
-        btnViewProfile.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnViewProfile.addActionListener(new java.awt.event.ActionListener() {
+        viewProfile.setText("View Profile");
+        viewProfile.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnViewProfileActionPerformed(evt);
+                viewProfileActionPerformed(evt);
             }
         });
 
@@ -93,32 +88,34 @@ public class ContributorAreaJPanel extends javax.swing.JPanel {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(109, 109, 109)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 186, Short.MAX_VALUE)
-                .addComponent(btnViewProfile)
-                .addGap(73, 73, 73))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 212, Short.MAX_VALUE)
+                .addComponent(viewProfile, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(36, 36, 36))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnAddContribution, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(173, 173, 173))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(236, 236, 236)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(btnViewContribution, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnAddContribution, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addContainerGap(177, Short.MAX_VALUE)))
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                    .addContainerGap(246, Short.MAX_VALUE)
+                    .addComponent(btnViewContribution)
+                    .addGap(175, 175, 175)))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(45, 45, 45)
+                .addGap(47, 47, 47)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnViewProfile)
-                    .addComponent(jLabel1))
-                .addContainerGap(353, Short.MAX_VALUE))
+                    .addComponent(jLabel1)
+                    .addComponent(viewProfile, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(90, 90, 90)
+                .addComponent(btnAddContribution, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(190, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(144, 144, 144)
-                    .addComponent(btnAddContribution, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(41, 41, 41)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                    .addContainerGap(248, Short.MAX_VALUE)
                     .addComponent(btnViewContribution, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(132, Short.MAX_VALUE)))
+                    .addGap(122, 122, 122)))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -131,26 +128,24 @@ public class ContributorAreaJPanel extends javax.swing.JPanel {
     }//GEN-LAST:event_btnAddContributionActionPerformed
 
     private void btnViewContributionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnViewContributionActionPerformed
-        // TODO add your handling code here:
         ViewContributionJPanel vcjp = new ViewContributionJPanel(userProcessContainer, userAccount, ecosystem);
         userProcessContainer.add("View Contribution History", vcjp);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
     }//GEN-LAST:event_btnViewContributionActionPerformed
 
-    private void btnViewProfileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnViewProfileActionPerformed
-        // TODO add your handling code here:
+    private void viewProfileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewProfileActionPerformed
         ViewContributorProfileJPanel vvpjp = new ViewContributorProfileJPanel(userProcessContainer, userAccount, ecosystem);
         userProcessContainer.add("View Profile", vvpjp);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
-    }//GEN-LAST:event_btnViewProfileActionPerformed
+    }//GEN-LAST:event_viewProfileActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAddContribution;
     private javax.swing.JButton btnViewContribution;
-    private javax.swing.JButton btnViewProfile;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JButton viewProfile;
     // End of variables declaration//GEN-END:variables
 }
