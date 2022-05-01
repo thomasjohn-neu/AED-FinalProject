@@ -60,7 +60,7 @@ public class ViewContributorProfileJPanel extends javax.swing.JPanel {
         jLabel13 = new javax.swing.JLabel();
         txtLocation = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        btnBack1 = new javax.swing.JButton();
+        back = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -186,28 +186,24 @@ public class ViewContributorProfileJPanel extends javax.swing.JPanel {
 
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 100, 660, 220));
 
-        btnBack1.setBackground(new java.awt.Color(255, 255, 255));
-        btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        btnBack1.setText("Back");
-        btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnBack1.addActionListener(new java.awt.event.ActionListener() {
+        back.setText("Back");
+        back.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBack1ActionPerformed(evt);
+                backActionPerformed(evt);
             }
         });
-        add(btnBack1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, 110, -1));
+        add(back, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 130, 40));
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnBack1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBack1ActionPerformed
-        userProcessContainer.remove(this);
+    private void backActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backActionPerformed
+       userProcessContainer.remove(this);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnBack1ActionPerformed
+    }//GEN-LAST:event_backActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnBack1;
+    private javax.swing.JButton back;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
