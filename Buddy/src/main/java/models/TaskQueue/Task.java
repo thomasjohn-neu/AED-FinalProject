@@ -4,7 +4,7 @@
  */
 package models.TaskQueue;
 
-import java.sql.Driver;
+import models.DeliveryAgency.Driver;
 import java.util.Date;
 import models.DeliveryAgency.Clerk;
 import models.Person.Person;

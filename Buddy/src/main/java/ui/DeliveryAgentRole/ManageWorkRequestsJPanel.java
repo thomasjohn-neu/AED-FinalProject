@@ -115,7 +115,6 @@ public class ManageWorkRequestsJPanel extends javax.swing.JPanel {
 
         btnBack1.setBackground(new java.awt.Color(255, 255, 255));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        btnBack1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/back.png"))); // NOI18N
         btnBack1.setText("Back");
         btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -133,7 +132,6 @@ public class ManageWorkRequestsJPanel extends javax.swing.JPanel {
         btnRefresh.setBackground(new java.awt.Color(67, 0, 163));
         btnRefresh.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnRefresh.setForeground(new java.awt.Color(255, 255, 255));
-        btnRefresh.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/refresh.png"))); // NOI18N
         btnRefresh.setText("Refresh");
         btnRefresh.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnRefresh.addActionListener(new java.awt.event.ActionListener() {

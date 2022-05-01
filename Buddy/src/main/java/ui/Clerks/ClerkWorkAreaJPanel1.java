@@ -149,7 +149,6 @@ public class ClerkWorkAreaJPanel1 extends javax.swing.JPanel {
         btnRefresh1.setBackground(new java.awt.Color(67, 0, 163));
         btnRefresh1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnRefresh1.setForeground(new java.awt.Color(255, 255, 255));
-        btnRefresh1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/refresh.png"))); // NOI18N
         btnRefresh1.setText("Refresh");
         btnRefresh1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnRefresh1.addActionListener(new java.awt.event.ActionListener() {

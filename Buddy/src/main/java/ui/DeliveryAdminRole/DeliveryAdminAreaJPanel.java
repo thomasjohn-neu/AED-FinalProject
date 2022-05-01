@@ -73,7 +73,6 @@ public class DeliveryAdminAreaJPanel extends javax.swing.JPanel {
         btnUpdate.setBackground(new java.awt.Color(67, 0, 163));
         btnUpdate.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
         btnUpdate.setForeground(new java.awt.Color(255, 255, 255));
-        btnUpdate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/update-white.png"))); // NOI18N
         btnUpdate.setText("Update Details");
         btnUpdate.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
@@ -86,7 +85,6 @@ public class DeliveryAdminAreaJPanel extends javax.swing.JPanel {
         btnMap.setBackground(new java.awt.Color(255, 255, 255));
         btnMap.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
         btnMap.setForeground(new java.awt.Color(67, 0, 163));
-        btnMap.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/location.png"))); // NOI18N
         btnMap.setText("View Locations");
         btnMap.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(67, 0, 163)));
         btnMap.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));

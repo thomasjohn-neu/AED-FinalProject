@@ -81,7 +81,6 @@ public class DeliverToReceiverJPanel extends javax.swing.JPanel {
         btnDeliver.setBackground(new java.awt.Color(67, 0, 163));
         btnDeliver.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         btnDeliver.setForeground(new java.awt.Color(255, 255, 255));
-        btnDeliver.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/deliver-svgrepo-com.png"))); // NOI18N
         btnDeliver.setText("Deliver");
         btnDeliver.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnDeliver.addActionListener(new java.awt.event.ActionListener() {
@@ -97,7 +96,6 @@ public class DeliverToReceiverJPanel extends javax.swing.JPanel {
 
         btnBack.setBackground(new java.awt.Color(255, 255, 255));
         btnBack.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        btnBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/back.png"))); // NOI18N
         btnBack.setText("Back");
         btnBack.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
