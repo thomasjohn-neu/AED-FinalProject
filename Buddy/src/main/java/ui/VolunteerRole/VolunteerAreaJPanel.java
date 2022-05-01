@@ -55,7 +55,6 @@ public class VolunteerAreaJPanel extends javax.swing.JPanel {
 
         btnAppRejStoreContribution.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnAppRejStoreContribution.setForeground(new java.awt.Color(67, 0, 163));
-        btnAppRejStoreContribution.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/view.png"))); // NOI18N
         btnAppRejStoreContribution.setText("View Store Contribution");
         btnAppRejStoreContribution.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -65,7 +64,6 @@ public class VolunteerAreaJPanel extends javax.swing.JPanel {
 
         btnAppRejIndContribution.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnAppRejIndContribution.setForeground(new java.awt.Color(67, 0, 163));
-        btnAppRejIndContribution.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/view.png"))); // NOI18N
         btnAppRejIndContribution.setText("View Individual Contribution");
         btnAppRejIndContribution.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -75,7 +73,6 @@ public class VolunteerAreaJPanel extends javax.swing.JPanel {
 
         btnViewProfile.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         btnViewProfile.setForeground(new java.awt.Color(67, 0, 163));
-        btnViewProfile.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/view.png"))); // NOI18N
         btnViewProfile.setText("View Profile");
         btnViewProfile.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -98,7 +98,6 @@ public class ManageDistributorJPanel extends javax.swing.JPanel {
 
         btnCreate.setBackground(new java.awt.Color(255, 255, 255));
         btnCreate.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        btnCreate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/plus.png"))); // NOI18N
         btnCreate.setText("Create");
         btnCreate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -108,7 +107,6 @@ public class ManageDistributorJPanel extends javax.swing.JPanel {
         add(btnCreate, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 260, -1, -1));
 
         btnView.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        btnView.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/view.png"))); // NOI18N
         btnView.setText("View");
         btnView.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnView.addActionListener(new java.awt.event.ActionListener() {
@@ -119,7 +117,6 @@ public class ManageDistributorJPanel extends javax.swing.JPanel {
         add(btnView, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 260, -1, -1));
 
         btnUpdate.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        btnUpdate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/update.png"))); // NOI18N
         btnUpdate.setText("Update");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -129,7 +126,6 @@ public class ManageDistributorJPanel extends javax.swing.JPanel {
         add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 260, -1, -1));
 
         btnDelete.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        btnDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/delete.png"))); // NOI18N
         btnDelete.setText("Delete");
         btnDelete.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -176,7 +172,6 @@ public class ManageDistributorJPanel extends javax.swing.JPanel {
 
         btnBack1.setBackground(new java.awt.Color(255, 255, 255));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        btnBack1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/back.png"))); // NOI18N
         btnBack1.setText("Back");
         btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));

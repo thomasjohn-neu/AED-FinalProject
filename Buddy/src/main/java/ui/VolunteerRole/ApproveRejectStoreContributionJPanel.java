@@ -75,7 +75,6 @@ public class ApproveRejectStoreContributionJPanel extends javax.swing.JPanel {
 
         btnApprove.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnApprove.setForeground(new java.awt.Color(67, 0, 163));
-        btnApprove.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/tick.png"))); // NOI18N
         btnApprove.setText("Approve");
         btnApprove.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,7 +85,6 @@ public class ApproveRejectStoreContributionJPanel extends javax.swing.JPanel {
 
         btnReject.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnReject.setForeground(new java.awt.Color(67, 0, 163));
-        btnReject.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/close.png"))); // NOI18N
         btnReject.setText("Reject");
         btnReject.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -101,7 +99,6 @@ public class ApproveRejectStoreContributionJPanel extends javax.swing.JPanel {
 
         btnBack1.setBackground(new java.awt.Color(255, 255, 255));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        btnBack1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/back.png"))); // NOI18N
         btnBack1.setText("Back");
         btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
