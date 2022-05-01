@@ -32,7 +32,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author murali
+ * @author thomas
  */
 public class ManageRegistrationsJPanel extends javax.swing.JPanel {
 

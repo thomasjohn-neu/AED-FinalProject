@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Yash
+ * @author thomas
  */
 public class ManageReceiverJPanel extends javax.swing.JPanel {
 

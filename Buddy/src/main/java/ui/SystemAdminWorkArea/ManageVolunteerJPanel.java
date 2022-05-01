@@ -25,7 +25,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author yashwanthsridharan
+ * @author thomas
  */
 public class ManageVolunteerJPanel extends javax.swing.JPanel {
 
