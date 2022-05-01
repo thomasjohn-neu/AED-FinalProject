@@ -31,7 +31,7 @@ public class AddContributionJPanel extends javax.swing.JPanel {
     private AppSystem system;
     Person account;
     Contribution contribution;
-    JDateChooser jDateChooser = new JDateChooser();
+//    JDateChooser dateChooser = new JDateChooser();
     
     public AddContributionJPanel(JPanel userProcessContainer,Person account, AppSystem system) {
         initComponents();
@@ -61,9 +61,9 @@ public class AddContributionJPanel extends javax.swing.JPanel {
         jLabel2 = new javax.swing.JLabel();
         txtItem = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
         btnBack1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        dateChooser = new com.toedter.calendar.JDateChooser();
 
         setBackground(new java.awt.Color(243, 246, 251));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -112,7 +112,6 @@ public class AddContributionJPanel extends javax.swing.JPanel {
         jLabel4.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel4.setText("jLabel4");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(329, 137, -1, -1));
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 200, -1, -1));
 
         btnBack1.setBackground(new java.awt.Color(251, 129, 131));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
@@ -129,6 +128,9 @@ public class AddContributionJPanel extends javax.swing.JPanel {
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel1.setText("Add Contribution");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 40, -1, -1));
+
+        dateChooser.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        add(dateChooser, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 260, 140, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnResetActionPerformed
@@ -136,14 +138,14 @@ public class AddContributionJPanel extends javax.swing.JPanel {
        
         txtqty.setText("");
         txtItem.setText("");
-        jDateChooser.setDateFormatString("");
+        dateChooser.setDateFormatString("");
         
        
     }//GEN-LAST:event_btnResetActionPerformed
 
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
         // TODO add your handling code here:
-        if (txtItem.getText().trim().isEmpty() || txtqty.getText().trim().isEmpty() || jDateChooser==null){
+        if (txtItem.getText().trim().isEmpty() || txtqty.getText().trim().isEmpty() || dateChooser==null){
             JOptionPane.showMessageDialog(null, "Please enter all fields");
         }
         
@@ -151,7 +153,7 @@ public class AddContributionJPanel extends javax.swing.JPanel {
         jLabel4.setText(account.getName());
         String item = txtItem.getText();
         String qty = txtqty.getText();
-        Date date = jDateChooser.getDate();
+        Date date = dateChooser.getDate();
         String strDate = DateFormat.getDateInstance().format(date);
         
         try {
@@ -173,7 +175,7 @@ public class AddContributionJPanel extends javax.swing.JPanel {
             return;
         }
         
-        if ( item.trim().isEmpty() || txtqty.getText().trim().isEmpty() || jDateChooser==null){
+        if ( item.trim().isEmpty() || txtqty.getText().trim().isEmpty() || dateChooser==null){
             JOptionPane.showMessageDialog(null, "Please enter all fields");
         }
         
@@ -186,7 +188,7 @@ public class AddContributionJPanel extends javax.swing.JPanel {
         JOptionPane.showMessageDialog(null, "Item added");
         txtqty.setText("");
         txtItem.setText("");
-        jDateChooser.setDateFormatString("");
+        dateChooser.setDateFormatString("");
     }//GEN-LAST:event_btnAddActionPerformed
 
     private void btnBack1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBack1ActionPerformed
@@ -200,11 +202,11 @@ public class AddContributionJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnAdd;
     private javax.swing.JButton btnBack1;
     private javax.swing.JButton btnReset;
+    private com.toedter.calendar.JDateChooser dateChooser;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JTextField txtItem;
