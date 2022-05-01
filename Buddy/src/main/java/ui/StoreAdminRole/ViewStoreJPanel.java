@@ -15,7 +15,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author murali
+ * @author naina
  */
 public class ViewStoreJPanel extends javax.swing.JPanel {
 
