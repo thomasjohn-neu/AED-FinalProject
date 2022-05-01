@@ -61,7 +61,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
         loginJPanel.setBackground(new java.awt.Color(243, 244, 246));
 
-        loginJButton.setBackground(new java.awt.Color(67, 0, 163));
+        loginJButton.setBackground(new java.awt.Color(51, 102, 0));
         loginJButton.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         loginJButton.setForeground(new java.awt.Color(255, 255, 255));
         loginJButton.setText("Login");
@@ -74,12 +74,11 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-        userNameJPanel.setBackground(new java.awt.Color(85, 133, 239));
+        userNameJPanel.setBackground(new java.awt.Color(243, 244, 246));
 
         userNameJTextField.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("User Name");
 
         javax.swing.GroupLayout userNameJPanelLayout = new javax.swing.GroupLayout(userNameJPanel);
@@ -89,7 +88,7 @@ public class MainJFrame extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, userNameJPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 72, Short.MAX_VALUE)
                 .addComponent(userNameJTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -103,10 +102,9 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel1.setBackground(new java.awt.Color(85, 133, 239));
+        jPanel1.setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel2.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Password");
 
         passwordField.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
@@ -132,8 +130,9 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        btnRegister.setBackground(new java.awt.Color(85, 133, 239));
+        btnRegister.setBackground(new java.awt.Color(51, 102, 0));
         btnRegister.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        btnRegister.setForeground(new java.awt.Color(255, 255, 255));
         btnRegister.setText("Register");
         btnRegister.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnRegister.setMaximumSize(new java.awt.Dimension(110, 30));
@@ -153,14 +152,14 @@ public class MainJFrame extends javax.swing.JFrame {
             .addGroup(loginJPanelLayout.createSequentialGroup()
                 .addGap(58, 58, 58)
                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 67, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 55, Short.MAX_VALUE)
                 .addGroup(loginJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(userNameJPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(loginJPanelLayout.createSequentialGroup()
                         .addGap(11, 11, 11)
                         .addComponent(loginJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
                         .addComponent(btnRegister, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(8, 8, 8)))
                 .addGap(296, 296, 296))
@@ -186,10 +185,10 @@ public class MainJFrame extends javax.swing.JFrame {
 
         getContentPane().add(loginJPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 82, 910, 560));
 
-        topNavJPanel.setBackground(new java.awt.Color(50, 60, 88));
+        topNavJPanel.setBackground(new java.awt.Color(179, 51, 51));
         topNavJPanel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED, java.awt.Color.lightGray, java.awt.Color.lightGray, java.awt.Color.lightGray, java.awt.Color.lightGray));
 
-        logoutJButton.setBackground(new java.awt.Color(67, 0, 163));
+        logoutJButton.setBackground(new java.awt.Color(51, 102, 0));
         logoutJButton.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         logoutJButton.setForeground(new java.awt.Color(255, 255, 255));
         logoutJButton.setText("Logout");
@@ -201,7 +200,7 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-        jPanel2.setBackground(new java.awt.Color(50, 60, 88));
+        jPanel2.setBackground(new java.awt.Color(179, 51, 51));
 
         jLabel4.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
