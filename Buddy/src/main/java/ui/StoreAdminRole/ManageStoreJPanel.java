@@ -55,7 +55,6 @@ public class ManageStoreJPanel extends javax.swing.JPanel {
 
         btnAddContribution.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnAddContribution.setForeground(new java.awt.Color(67, 0, 163));
-        btnAddContribution.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/plus.png"))); // NOI18N
         btnAddContribution.setText("Add Contribution");
         btnAddContribution.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -65,7 +64,6 @@ public class ManageStoreJPanel extends javax.swing.JPanel {
 
         btnViewContribution.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnViewContribution.setForeground(new java.awt.Color(67, 0, 163));
-        btnViewContribution.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/note.png"))); // NOI18N
         btnViewContribution.setText("View Contribution History");
         btnViewContribution.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

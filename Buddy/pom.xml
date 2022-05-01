@@ -19,14 +19,29 @@
             <version>8.0.184.15484-all-java5</version>
         </dependency>
         <dependency>
-            <groupId>javax.mail</groupId>
+            <groupId>unknown.binary</groupId>
+            <artifactId>AbsoluteLayout</artifactId>
+            <version>SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>jcalender</groupId>
+            <artifactId>jcalendar</artifactId>
+            <version>1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>javax</groupId>
             <artifactId>javax.mail</artifactId>
             <version>1</version>
         </dependency>
         <dependency>
-            <groupId>unknown.binary</groupId>
-            <artifactId>AbsoluteLayout</artifactId>
-            <version>SNAPSHOT</version>
+            <groupId>jxbrowser</groupId>
+            <artifactId>jxbrowser</artifactId>
+            <version>7.24.4</version>
+        </dependency>
+        <dependency>
+            <groupId>jxbrowserswing</groupId>
+            <artifactId>jxbrowserswing</artifactId>
+            <version>7.24.4</version>
         </dependency>
     </dependencies>
     <properties>

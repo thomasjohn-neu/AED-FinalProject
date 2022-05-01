@@ -85,9 +85,6 @@
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="a3" green="0" red="43" type="rgb"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/userinterface/images/view.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="View Store Contribution"/>
       </Properties>
       <Events>
@@ -102,9 +99,6 @@
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="a3" green="0" red="43" type="rgb"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/userinterface/images/view.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="View Individual Contribution"/>
       </Properties>
       <Events>
@@ -118,9 +112,6 @@
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="a3" green="0" red="43" type="rgb"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/userinterface/images/view.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="View Profile"/>
       </Properties>
