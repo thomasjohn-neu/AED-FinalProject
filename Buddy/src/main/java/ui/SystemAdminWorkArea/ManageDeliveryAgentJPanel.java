@@ -64,7 +64,7 @@ public class ManageDeliveryAgentJPanel extends javax.swing.JPanel {
         btnDelete = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setPreferredSize(new java.awt.Dimension(910, 560));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -122,7 +122,7 @@ public class ManageDeliveryAgentJPanel extends javax.swing.JPanel {
         });
         add(btnRefresh, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 30, -1, -1));
 
-        jPanel5.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel5.setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel5.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel5.setText("Name");
@@ -149,7 +149,7 @@ public class ManageDeliveryAgentJPanel extends javax.swing.JPanel {
 
         add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 370, 210, 40));
 
-        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel3.setBackground(new java.awt.Color(243, 244, 246));
 
         txtUserName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -182,7 +182,7 @@ public class ManageDeliveryAgentJPanel extends javax.swing.JPanel {
 
         add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 370, 230, 40));
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel1.setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel1.setText("Password");

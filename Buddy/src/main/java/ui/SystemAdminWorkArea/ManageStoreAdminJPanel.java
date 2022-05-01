@@ -65,7 +65,7 @@ public class ManageStoreAdminJPanel extends javax.swing.JPanel {
         btnBack = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         tblStoreAdmins.setModel(new javax.swing.table.DefaultTableModel(
@@ -134,7 +134,7 @@ public class ManageStoreAdminJPanel extends javax.swing.JPanel {
         });
         add(btnDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 240, -1, -1));
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel1.setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel1.setText("Password");
@@ -163,7 +163,7 @@ public class ManageStoreAdminJPanel extends javax.swing.JPanel {
 
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 360, 230, 40));
 
-        jPanel2.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel2.setBackground(new java.awt.Color(243, 244, 246));
 
         txtName.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
 
@@ -192,7 +192,7 @@ public class ManageStoreAdminJPanel extends javax.swing.JPanel {
 
         add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 300, 190, 40));
 
-        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel3.setBackground(new java.awt.Color(243, 244, 246));
 
         txtUserName.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         txtUserName.addActionListener(new java.awt.event.ActionListener() {

@@ -220,7 +220,7 @@ public class MainJFrame extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap(28, Short.MAX_VALUE)
                 .addComponent(jLabel4)
-                .addGap(17, 17, 17))
+                .addGap(21, 21, 21))
         );
 
         javax.swing.GroupLayout topNavJPanelLayout = new javax.swing.GroupLayout(topNavJPanel);

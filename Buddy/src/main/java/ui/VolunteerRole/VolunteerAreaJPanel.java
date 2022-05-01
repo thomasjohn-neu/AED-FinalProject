@@ -47,7 +47,7 @@ public class VolunteerAreaJPanel extends javax.swing.JPanel {
         btnViewProfile = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(48, 47, 67));
+        setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
