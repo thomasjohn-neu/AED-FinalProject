@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package ui.Driver;
+package ui.Clerks;
 
-import models.DeliveryAgency.Driver;
+import models.DeliveryAgency.Clerk;
 import models.AppSystem;
 
 import models.Person.Person;
@@ -17,54 +17,59 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author thomas
  * @author naina
  */
-public class DriverWorkAreaJPanel extends javax.swing.JPanel {
+public class ClerkWorkAreaJPanel1 extends javax.swing.JPanel {
 
     private JPanel userProcessContainer;
     private AppSystem system;
     private Person userAccount;
     TaskQueue workQueue;
-
+    
+    
     /**
      * Creates new form LabAssistantWorkAreaJPanel
      */
-    public DriverWorkAreaJPanel(JPanel userProcessContainer, Person account, AppSystem business) {
+    
+    public ClerkWorkAreaJPanel1(JPanel userProcessContainer, Person account, AppSystem business) {
+        
         initComponents();
-
+        
         this.userProcessContainer = userProcessContainer;
         this.userAccount = account;
         this.system = business;
-
-        populateDriverTable();
-
+      
+        
+        this.populateTable();
+        
         valueLabel.setText(account.getName());
     }
-
-    public void populateDriverTable() {
-
-
+    
+    public void populateTable(){
+        
+        
         DefaultTableModel model = (DefaultTableModel) workRequestJTable.getModel();
-
+        
         model.setRowCount(0);
 
-        for (Driver user : system.getDriverDirectory().getDriverList()) {
-            if (user.getUserName().equals(userAccount.getUsername())) {
-                for (Task wr : user.getWorkQueue().getWorkQueue()) {
-                    //System.out.println(user.getWorkQueue().getWorkQueue().size());
-                    Object[] row = new Object[4];
+        for (int i=0;i<system.getClerkDirectory().getClerkList().size();i++)
+        {
+            Clerk user=system.getClerkDirectory().getClerkList().get(i);
+            if(user.getUserName().equals(userAccount.getUsername()))
+            {
+                for(Task wr : user.getWorkQueue().getWorkQueue()){
+                Object[] row = new Object[4];
 
-                    row[0] = wr;
-                    row[1] = wr.getPickUpLocation();
-                    row[2] = wr.getDropOffLocation();
-                    row[3] = wr.getStatus();
+                row[0] = wr;
+                row[1] = wr.getPickUpLocation();
+                row[2] = wr.getDropOffLocation();
+                row[3] = wr.getStatus();
 
-                    model.addRow(row);
+                model.addRow(row);
 
-                }
             }
-
+        }
+        
         }
     }
 
@@ -116,31 +121,30 @@ public class DriverWorkAreaJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(workRequestJTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, 580, 130));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 160, 580, 130));
 
         btnProcess.setBackground(new java.awt.Color(67, 0, 163));
         btnProcess.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnProcess.setForeground(new java.awt.Color(255, 255, 255));
         btnProcess.setText("Process Order");
-        btnProcess.setToolTipText("");
         btnProcess.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnProcess.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnProcessActionPerformed(evt);
             }
         });
-        add(btnProcess, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 320, -1, -1));
+        add(btnProcess, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 320, 160, 40));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
-        jLabel1.setText("Driver Work Requests");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 110, -1, -1));
+        jLabel1.setText("Clerk Work Requests");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 90, -1, -1));
 
-        enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        enterpriseLabel.setText("Driver:");
-        add(enterpriseLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, 70, 30));
+        enterpriseLabel.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        enterpriseLabel.setText("Welcome");
+        add(enterpriseLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, 100, 30));
 
         valueLabel.setText("<value>");
-        add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, 158, 26));
+        add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 40, 158, 26));
 
         btnRefresh1.setBackground(new java.awt.Color(67, 0, 163));
         btnRefresh1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
@@ -157,33 +161,31 @@ public class DriverWorkAreaJPanel extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnProcessActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProcessActionPerformed
-
+        
         int selectedRowIndex = workRequestJTable.getSelectedRow();
-
-        if (selectedRowIndex < 0) {
+        
+        if (selectedRowIndex < 0){
             return;
         }
-
-        Task wr = (Task) workRequestJTable.getValueAt(selectedRowIndex, 0);
-
-        if (wr.getStatus().equals("Delivered")) {
-            JOptionPane.showMessageDialog(null, " Order Already Delivered", "Warning", JOptionPane.WARNING_MESSAGE);
-        } else if (wr.getStatus().equals("Assigned to Clerk")) {
-            JOptionPane.showMessageDialog(null, "Not Approved by Clerk", "Warning", JOptionPane.WARNING_MESSAGE);
-        } else if (wr.getStatus().equals("Req to Clerk sent")) {
-            JOptionPane.showMessageDialog(null, "Not Approved by Clerk", "Warning", JOptionPane.WARNING_MESSAGE);
-        } else {
-            ProcessWorkRequestJPanel processWorkRequestJPanel = new ProcessWorkRequestJPanel(userProcessContainer, wr, system);
-            userProcessContainer.add("processWorkRequestJPanel", processWorkRequestJPanel);
-            CardLayout layout = (CardLayout) userProcessContainer.getLayout();
-            layout.next(userProcessContainer);
+        
+        Task wr = (Task)workRequestJTable.getValueAt(selectedRowIndex, 0); 
+        
+        if(wr.getStatus().equals("Inspected")){
+            JOptionPane.showMessageDialog(null," Order Already Inspected","Warning",JOptionPane.WARNING_MESSAGE);
+        }else{
+        
+        
+        ProcessWorkRequestJPanel1 processWorkRequestJPanel = new ProcessWorkRequestJPanel1(userProcessContainer, wr,system);
+        userProcessContainer.add("processWorkRequestJPanel", processWorkRequestJPanel);
+        CardLayout layout = (CardLayout) userProcessContainer.getLayout();
+        layout.next(userProcessContainer);
         }
-
+        
     }//GEN-LAST:event_btnProcessActionPerformed
 
     private void btnRefresh1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRefresh1ActionPerformed
         // TODO add your handling code here:
-        populateDriverTable();
+       this.populateTable();
     }//GEN-LAST:event_btnRefresh1ActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

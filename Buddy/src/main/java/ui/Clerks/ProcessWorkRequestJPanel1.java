@@ -2,8 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package ui.Driver;
+package ui.Clerks;
 
+import userinterface.Driver.*;
 import models.AppSystem;
 import models.Volunteer.Volunteer;
 import models.TaskQueue.Task;
@@ -14,10 +15,9 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author thomas
  * @author naina
  */
-public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
+public class ProcessWorkRequestJPanel1 extends javax.swing.JPanel {
 
     JPanel userProcessContainer;
     Task workrequest;
@@ -26,7 +26,7 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
     /**
      * Creates new form ProcessWorkRequestJPanel
      */
-    public ProcessWorkRequestJPanel(JPanel userProcessContainer, Task workrequest, AppSystem system) {
+    public ProcessWorkRequestJPanel1(JPanel userProcessContainer, Task workrequest, AppSystem system) {
         initComponents();
         this.userProcessContainer = userProcessContainer;
         this.workrequest = workrequest;
@@ -53,20 +53,20 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        submitJButton.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
-        submitJButton.setForeground(new java.awt.Color(67, 0, 163));
+        submitJButton.setBackground(new java.awt.Color(67, 0, 163));
+        submitJButton.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        submitJButton.setForeground(new java.awt.Color(255, 255, 255));
         submitJButton.setText("Submit Status");
-        submitJButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 submitJButtonActionPerformed(evt);
             }
         });
-        add(submitJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 210, -1, -1));
+        add(submitJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 210, 160, 40));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel1.setText("Result");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 150, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 160, -1, -1));
 
         txtResult.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         txtResult.addActionListener(new java.awt.event.ActionListener() {
@@ -74,11 +74,11 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
                 txtResultActionPerformed(evt);
             }
         });
-        add(txtResult, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 150, 130, -1));
+        add(txtResult, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 160, 130, -1));
 
-        jLabel2.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
         jLabel2.setText("Delivery Status");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 90, -1, -1));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 100, -1, -1));
 
         btnBack1.setBackground(new java.awt.Color(255, 255, 255));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
@@ -91,10 +91,10 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
                 btnBack1ActionPerformed(evt);
             }
         });
-        add(btnBack1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 110, -1));
+        add(btnBack1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 110, -1));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/approve.png"))); // NOI18N
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 200, -1, -1));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 200, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void submitJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitJButtonActionPerformed
@@ -103,15 +103,14 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
 
         try {
             if (status == null || status.isEmpty()) {
-                throw new Exception(" Please enter delivery status");
+                throw new Exception(" Please enter Inspection status");
             }
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, " Please enter delivery status");
+            JOptionPane.showMessageDialog(null, " Please enter Inspection status");
             return;
         }
 
         workrequest.setStatus(status);
-        system.getWorkQueue().addWorkRequesttoQueue(workrequest);
 //        for (Volunteer cust : system.getVolunteerDirectory().getVolunteerList()) {
 //            if (workrequest.getVolunteerUName().equals(cust.getUserName())) {
 //                for (WorkRequest wr : cust.getWorkqueue().getWorkQueue()) {
@@ -125,20 +124,20 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
         layout.previous(userProcessContainer);
     }//GEN-LAST:event_submitJButtonActionPerformed
 
+    private void txtResultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtResultActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtResultActionPerformed
+
     private void btnBack1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBack1ActionPerformed
         userProcessContainer.remove(this);
         Component[] componentArray = userProcessContainer.getComponents();
         Component component = componentArray[componentArray.length - 1];
-        DriverWorkAreaJPanel dwjp = (DriverWorkAreaJPanel) component;
+        ClerkWorkAreaJPanel1 dwjp = (ClerkWorkAreaJPanel1) component;
         //dwjp.populateTable();
 
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
     }//GEN-LAST:event_btnBack1ActionPerformed
-
-    private void txtResultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtResultActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtResultActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnBack1;
