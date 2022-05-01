@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author yashwanthsridharan
+ * @author thomas
  */
 public class ManageDistributorJPanel extends javax.swing.JPanel {
 

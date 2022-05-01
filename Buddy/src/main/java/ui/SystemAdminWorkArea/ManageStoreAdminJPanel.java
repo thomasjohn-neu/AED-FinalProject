@@ -20,7 +20,7 @@ import ui.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
 
 /**
  *
- * @author yashwanthsridharan
+ * @author thomas
  */
 public class ManageStoreAdminJPanel extends javax.swing.JPanel {
 

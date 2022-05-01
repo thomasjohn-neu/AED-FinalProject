@@ -7,6 +7,7 @@ package models.Role;
 import javax.swing.JPanel;
 import models.AppSystem;
 import models.Person.Person;
+import ui.Receiver.ReceiverAreaJPanel;
 
 /**
  *
