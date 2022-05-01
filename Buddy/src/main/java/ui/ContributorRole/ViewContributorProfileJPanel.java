@@ -62,7 +62,7 @@ public class ViewContributorProfileJPanel extends javax.swing.JPanel {
         jLabel12 = new javax.swing.JLabel();
         back = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblProfile.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N

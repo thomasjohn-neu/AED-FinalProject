@@ -50,7 +50,7 @@ public class ProcessWorkRequestJPanel1 extends javax.swing.JPanel {
         btnBack1 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         submitJButton.setBackground(new java.awt.Color(67, 0, 163));

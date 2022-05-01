@@ -58,6 +58,10 @@ public class MapJPanel extends javax.swing.JPanel {
         btnBack = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
 
+        setBackground(new java.awt.Color(243, 244, 246));
+
+        jPanel1.setBackground(new java.awt.Color(243, 244, 246));
+
         btnBack.setBackground(new java.awt.Color(255, 255, 255));
         btnBack.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnBack.setText("Back");
@@ -85,6 +89,8 @@ public class MapJPanel extends javax.swing.JPanel {
                 .addComponent(btnBack)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
+
+        jPanel2.setBackground(new java.awt.Color(243, 244, 246));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);

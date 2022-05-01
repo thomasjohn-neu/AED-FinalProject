@@ -48,10 +48,9 @@ public class ContributorAreaJPanel extends javax.swing.JPanel {
         btnViewContribution = new javax.swing.JButton();
         viewProfile = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(48, 47, 67));
+        setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Hello There Contributor!");
 
         btnAddContribution.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
