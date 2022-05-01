@@ -81,8 +81,9 @@ public class AddContributionJPanel extends javax.swing.JPanel {
         jLabel8.setText("Expiry Date:");
         add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 270, -1, -1));
 
+        btnAdd.setBackground(new java.awt.Color(51, 102, 0));
         btnAdd.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
-        btnAdd.setForeground(new java.awt.Color(67, 0, 163));
+        btnAdd.setForeground(new java.awt.Color(255, 255, 255));
         btnAdd.setText("Add");
         btnAdd.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
@@ -92,8 +93,9 @@ public class AddContributionJPanel extends javax.swing.JPanel {
         });
         add(btnAdd, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 340, 100, 30));
 
+        btnReset.setBackground(new java.awt.Color(51, 102, 0));
         btnReset.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        btnReset.setForeground(new java.awt.Color(67, 0, 163));
+        btnReset.setForeground(new java.awt.Color(255, 255, 255));
         btnReset.setText("Reset");
         btnReset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -126,8 +128,9 @@ public class AddContributionJPanel extends javax.swing.JPanel {
         txtName.setText("jLabel4");
         add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 160, -1, -1));
 
-        btnBack1.setBackground(new java.awt.Color(255, 255, 255));
+        btnBack1.setBackground(new java.awt.Color(51, 102, 0));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        btnBack1.setForeground(new java.awt.Color(255, 255, 255));
         btnBack1.setText("Back");
         btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));

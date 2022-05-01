@@ -186,6 +186,8 @@ public class ViewContributorProfileJPanel extends javax.swing.JPanel {
 
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 100, 660, 220));
 
+        back.setBackground(new java.awt.Color(51, 102, 0));
+        back.setForeground(new java.awt.Color(255, 255, 255));
         back.setText("Back");
         back.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

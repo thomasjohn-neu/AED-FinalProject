@@ -51,6 +51,7 @@ public class StoreAdminAreaJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText("Welcom Store Admin");
 
         btnDeleteStoreAdmin.setBackground(new java.awt.Color(255, 255, 255));

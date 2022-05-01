@@ -182,7 +182,7 @@ public class ViewVolunteerProfileJPanel extends javax.swing.JPanel {
                 .addContainerGap(56, Short.MAX_VALUE))
         );
 
-        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, 660, 220));
+        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, 660, 220));
 
         lblProfile.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         lblProfile.setText("Volunteer Profile");
