@@ -74,7 +74,6 @@ public class DistributorAreaJPanel extends javax.swing.JPanel {
         btnDeliver.setBackground(new java.awt.Color(255, 255, 255));
         btnDeliver.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         btnDeliver.setForeground(new java.awt.Color(67, 0, 163));
-        btnDeliver.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/hand-svgrepo-com.png"))); // NOI18N
         btnDeliver.setText("Deliver to Receiver");
         btnDeliver.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnDeliver.addActionListener(new java.awt.event.ActionListener() {

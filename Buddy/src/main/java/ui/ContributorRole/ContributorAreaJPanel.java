@@ -57,7 +57,6 @@ public class ContributorAreaJPanel extends javax.swing.JPanel {
         btnAddContribution.setBackground(new java.awt.Color(255, 255, 255));
         btnAddContribution.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnAddContribution.setForeground(new java.awt.Color(67, 0, 163));
-        btnAddContribution.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/plus.png"))); // NOI18N
         btnAddContribution.setText("Add Contribution");
         btnAddContribution.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnAddContribution.addActionListener(new java.awt.event.ActionListener() {
@@ -68,7 +67,6 @@ public class ContributorAreaJPanel extends javax.swing.JPanel {
 
         btnViewContribution.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnViewContribution.setForeground(new java.awt.Color(67, 0, 163));
-        btnViewContribution.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/note.png"))); // NOI18N
         btnViewContribution.setText("View Contribution History");
         btnViewContribution.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnViewContribution.addActionListener(new java.awt.event.ActionListener() {
@@ -80,7 +78,6 @@ public class ContributorAreaJPanel extends javax.swing.JPanel {
         btnViewProfile.setBackground(new java.awt.Color(255, 255, 255));
         btnViewProfile.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnViewProfile.setForeground(new java.awt.Color(67, 0, 163));
-        btnViewProfile.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/view.png"))); // NOI18N
         btnViewProfile.setText("View Profile");
         btnViewProfile.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnViewProfile.addActionListener(new java.awt.event.ActionListener() {
