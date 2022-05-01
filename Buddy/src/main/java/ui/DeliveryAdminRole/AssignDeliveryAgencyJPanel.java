@@ -113,8 +113,6 @@ public class AssignDeliveryAgencyJPanel extends javax.swing.JPanel {
             }
         });
         add(btnBack1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 110, -1));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/assign.png"))); // NOI18N
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 

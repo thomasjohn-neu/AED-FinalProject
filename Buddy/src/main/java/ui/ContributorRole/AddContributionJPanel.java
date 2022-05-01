@@ -137,8 +137,6 @@ public class AddContributionJPanel extends javax.swing.JPanel {
             }
         });
         add(btnBack1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 110, -1));
-
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/agree.png"))); // NOI18N
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 200, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 

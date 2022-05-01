@@ -91,8 +91,6 @@ public class ProcessWorkRequestJPanel1 extends javax.swing.JPanel {
             }
         });
         add(btnBack1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 110, -1));
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/approve.png"))); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 200, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 

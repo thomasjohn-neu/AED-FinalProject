@@ -204,8 +204,6 @@ public class AddStoreJPanel extends javax.swing.JPanel {
             }
         });
         add(btnBack1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 110, -1));
-
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/add-store.png"))); // NOI18N
         add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 240, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
