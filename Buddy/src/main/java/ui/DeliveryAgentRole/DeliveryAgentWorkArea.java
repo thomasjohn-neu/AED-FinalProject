@@ -46,7 +46,6 @@ public class DeliveryAgentWorkArea extends javax.swing.JPanel {
         btnDrivers = new javax.swing.JButton();
         btnWorkRequests = new javax.swing.JButton();
         btnClerks = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -85,7 +84,6 @@ public class DeliveryAgentWorkArea extends javax.swing.JPanel {
             }
         });
         add(btnClerks, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 210, 178, 37));
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 200, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnWorkRequestsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnWorkRequestsActionPerformed
@@ -122,6 +120,5 @@ public class DeliveryAgentWorkArea extends javax.swing.JPanel {
     private javax.swing.JButton btnDrivers;
     private javax.swing.JButton btnWorkRequests;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }
