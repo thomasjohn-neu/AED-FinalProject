@@ -49,7 +49,7 @@ public class ViewStoreJPanel extends javax.swing.JPanel {
         tblStore = new javax.swing.JTable();
         btnBack1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         jLabel1.setText("View Stores");

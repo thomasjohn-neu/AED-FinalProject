@@ -47,10 +47,9 @@ public class ManageStoreJPanel extends javax.swing.JPanel {
         btnViewContribution = new javax.swing.JButton();
         lblName = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(48, 47, 67));
+        setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Manage Store");
 
         btnAddContribution.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N

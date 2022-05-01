@@ -64,7 +64,7 @@ public class ManageWorkRequestsJPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         btnRefresh = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         tblWorkRequests.setModel(new javax.swing.table.DefaultTableModel(

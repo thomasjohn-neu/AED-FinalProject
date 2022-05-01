@@ -60,7 +60,7 @@ public class UpdateStoreJPanel extends javax.swing.JPanel {
         btnConfirmUpdate = new javax.swing.JButton();
         btnBack1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
