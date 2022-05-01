@@ -85,7 +85,7 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
         btnRefresh1 = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         tblReceiver.setModel(new javax.swing.table.DefaultTableModel(
@@ -158,7 +158,7 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
         });
         add(btnDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 260, -1, -1));
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel1.setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel1.setText("Password");
@@ -186,7 +186,7 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
 
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 420, -1, -1));
 
-        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel3.setBackground(new java.awt.Color(243, 244, 246));
 
         txtUserName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -220,7 +220,7 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
 
         add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 380, -1, -1));
 
-        jPanel5.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel5.setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel5.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel5.setText("Name");
@@ -249,7 +249,7 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
 
         add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 330, -1, -1));
 
-        jPanel6.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel6.setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel6.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel6.setText("Email");
@@ -274,13 +274,13 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
 
         add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 330, 190, -1));
 
-        jPanel7.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel7.setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel7.setBackground(new java.awt.Color(204, 204, 255));
         jLabel7.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel7.setText("Phone Number");
 
-        jPanel8.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel8.setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel8.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel8.setText("Carrier");
@@ -306,7 +306,7 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
                 .addContainerGap(7, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel2.setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel2.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel2.setText("Location");
@@ -370,7 +370,7 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
 
         add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 380, -1, -1));
 
-        jPanel9.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel9.setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel9.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel9.setText("Confirm Password");

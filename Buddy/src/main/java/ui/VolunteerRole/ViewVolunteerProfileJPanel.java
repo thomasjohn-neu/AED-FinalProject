@@ -63,7 +63,7 @@ public class ViewVolunteerProfileJPanel extends javax.swing.JPanel {
         lblProfile = new javax.swing.JLabel();
         btnBack1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 

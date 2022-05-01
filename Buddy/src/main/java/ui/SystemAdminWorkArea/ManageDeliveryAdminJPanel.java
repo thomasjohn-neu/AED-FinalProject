@@ -68,7 +68,7 @@ public class ManageDeliveryAdminJPanel extends javax.swing.JPanel {
         txtPassword = new javax.swing.JPasswordField();
         jLabel4 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         btnCreate.setBackground(new java.awt.Color(255, 255, 255));
@@ -184,7 +184,7 @@ public class ManageDeliveryAdminJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 160, 404, 91));
 
-        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel3.setBackground(new java.awt.Color(243, 244, 246));
 
         txtUserName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -217,7 +217,7 @@ public class ManageDeliveryAdminJPanel extends javax.swing.JPanel {
 
         add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 340, 230, 40));
 
-        jPanel5.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel5.setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel5.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel5.setText("Name");
@@ -244,7 +244,7 @@ public class ManageDeliveryAdminJPanel extends javax.swing.JPanel {
 
         add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 340, 210, 40));
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel1.setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel1.setText("Password");

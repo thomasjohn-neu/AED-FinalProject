@@ -224,7 +224,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         setLayout(new java.awt.BorderLayout());
 
-        jTree.setBackground(new java.awt.Color(204, 204, 255));
+        jTree.setBackground(new java.awt.Color(74, 109, 157));
         jTree.addTreeSelectionListener(new javax.swing.event.TreeSelectionListener() {
             public void valueChanged(javax.swing.event.TreeSelectionEvent evt) {
                 jTreeValueChanged(evt);
@@ -249,12 +249,12 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane.setLeftComponent(jPanel1);
 
-        jPanel2.setBackground(new java.awt.Color(0, 102, 102));
+        jPanel2.setBackground(new java.awt.Color(243, 244, 246));
         jPanel2.setForeground(new java.awt.Color(255, 255, 255));
 
         btnManageVolunteer.setBackground(new java.awt.Color(255, 255, 255));
         btnManageVolunteer.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
-        btnManageVolunteer.setForeground(new java.awt.Color(255, 255, 255));
+        btnManageVolunteer.setForeground(new java.awt.Color(102, 102, 102));
         btnManageVolunteer.setText("Manage Volunteer");
         btnManageVolunteer.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageVolunteer.setContentAreaFilled(false);
@@ -266,7 +266,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         btnManageContributor.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
-        btnManageContributor.setForeground(new java.awt.Color(255, 255, 255));
+        btnManageContributor.setForeground(new java.awt.Color(102, 102, 102));
         btnManageContributor.setText("Manage Contributor");
         btnManageContributor.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageContributor.setContentAreaFilled(false);
@@ -278,7 +278,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         btnManageStoreAdmin.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
-        btnManageStoreAdmin.setForeground(new java.awt.Color(255, 255, 255));
+        btnManageStoreAdmin.setForeground(new java.awt.Color(102, 102, 102));
         btnManageStoreAdmin.setText("Manage Store Admin");
         btnManageStoreAdmin.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageStoreAdmin.setContentAreaFilled(false);
@@ -290,7 +290,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         btnManageDeliveryAgent.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
-        btnManageDeliveryAgent.setForeground(new java.awt.Color(255, 255, 255));
+        btnManageDeliveryAgent.setForeground(new java.awt.Color(102, 102, 102));
         btnManageDeliveryAgent.setText("Manage Delivery Agent");
         btnManageDeliveryAgent.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageDeliveryAgent.setContentAreaFilled(false);
@@ -302,7 +302,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         btnManageDistributor.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
-        btnManageDistributor.setForeground(new java.awt.Color(255, 255, 255));
+        btnManageDistributor.setForeground(new java.awt.Color(102, 102, 102));
         btnManageDistributor.setText("Manage Distributor");
         btnManageDistributor.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageDistributor.setContentAreaFilled(false);
@@ -314,7 +314,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         btnManageReceiver.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
-        btnManageReceiver.setForeground(new java.awt.Color(255, 255, 255));
+        btnManageReceiver.setForeground(new java.awt.Color(102, 102, 102));
         btnManageReceiver.setText("Manage Receiver");
         btnManageReceiver.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageReceiver.setContentAreaFilled(false);
@@ -326,7 +326,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         btnManageRegistration.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
-        btnManageRegistration.setForeground(new java.awt.Color(255, 255, 255));
+        btnManageRegistration.setForeground(new java.awt.Color(102, 102, 102));
         btnManageRegistration.setText("Manage Registration");
         btnManageRegistration.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageRegistration.setContentAreaFilled(false);
@@ -338,7 +338,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         btnManageDeliveryAdmin.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
-        btnManageDeliveryAdmin.setForeground(new java.awt.Color(255, 255, 255));
+        btnManageDeliveryAdmin.setForeground(new java.awt.Color(102, 102, 102));
         btnManageDeliveryAdmin.setText("Manage Delivery Admin");
         btnManageDeliveryAdmin.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageDeliveryAdmin.setContentAreaFilled(false);
@@ -349,8 +349,9 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel1.setBackground(new java.awt.Color(102, 102, 102));
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText("System Admin Portal");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);

@@ -3,7 +3,7 @@
 <Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
   <Properties>
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-      <Color blue="ff" green="cc" red="cc" type="rgb"/>
+      <Color blue="f6" green="f4" red="f3" type="rgb"/>
     </Property>
   </Properties>
   <AuxValues>
@@ -130,7 +130,7 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+          <Color blue="f6" green="f4" red="f3" type="rgb"/>
         </Property>
       </Properties>
       <Constraints>
@@ -180,7 +180,7 @@
     <Container class="javax.swing.JPanel" name="jPanel3">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+          <Color blue="f6" green="f4" red="f3" type="rgb"/>
         </Property>
       </Properties>
       <Constraints>
@@ -233,7 +233,7 @@
     <Container class="javax.swing.JPanel" name="jPanel5">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+          <Color blue="f6" green="f4" red="f3" type="rgb"/>
         </Property>
       </Properties>
       <Constraints>
@@ -284,7 +284,7 @@
     <Container class="javax.swing.JPanel" name="jPanel6">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+          <Color blue="f6" green="f4" red="f3" type="rgb"/>
         </Property>
       </Properties>
       <Constraints>
@@ -330,7 +330,7 @@
     <Container class="javax.swing.JPanel" name="jPanel7">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+          <Color blue="f6" green="f4" red="f3" type="rgb"/>
         </Property>
       </Properties>
       <Constraints>
@@ -402,7 +402,7 @@
         <Container class="javax.swing.JPanel" name="jPanel8">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+              <Color blue="f6" green="f4" red="f3" type="rgb"/>
             </Property>
           </Properties>
 
@@ -455,7 +455,7 @@
         <Container class="javax.swing.JPanel" name="jPanel2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+              <Color blue="f6" green="f4" red="f3" type="rgb"/>
             </Property>
           </Properties>
 
@@ -510,7 +510,7 @@
     <Container class="javax.swing.JPanel" name="jPanel9">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+          <Color blue="f6" green="f4" red="f3" type="rgb"/>
         </Property>
       </Properties>
       <Constraints>

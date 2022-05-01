@@ -78,7 +78,7 @@ public class ManageContributorJPanel extends javax.swing.JPanel {
         txtUserName = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         tblContributors.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N

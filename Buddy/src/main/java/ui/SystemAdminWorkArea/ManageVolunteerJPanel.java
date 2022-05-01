@@ -81,7 +81,7 @@ public class ManageVolunteerJPanel extends javax.swing.JPanel {
         jLabel4 = new javax.swing.JLabel();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         tblVolunteers.setModel(new javax.swing.table.DefaultTableModel(
