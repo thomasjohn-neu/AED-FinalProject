@@ -85,8 +85,6 @@ public class DeliveryAgentWorkArea extends javax.swing.JPanel {
             }
         });
         add(btnClerks, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 210, 178, 37));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/delivery-agency.png"))); // NOI18N
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 200, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 

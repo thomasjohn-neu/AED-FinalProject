@@ -112,8 +112,6 @@ public class AddContributionJPanel extends javax.swing.JPanel {
         jLabel4.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel4.setText("jLabel4");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(329, 137, -1, -1));
-
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/agree.png"))); // NOI18N
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 200, -1, -1));
 
         btnBack1.setBackground(new java.awt.Color(255, 255, 255));

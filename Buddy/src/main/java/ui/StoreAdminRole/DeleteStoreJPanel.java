@@ -60,7 +60,6 @@ public class DeleteStoreJPanel extends javax.swing.JPanel {
 
         btnDelete.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         btnDelete.setForeground(new java.awt.Color(67, 0, 163));
-        btnDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/delete.png"))); // NOI18N
         btnDelete.setText("Delete");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

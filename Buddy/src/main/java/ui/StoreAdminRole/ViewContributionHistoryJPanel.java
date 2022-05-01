@@ -82,8 +82,6 @@ public class ViewContributionHistoryJPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(tblStoreHistory);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(104, 138, -1, 191));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/images/thank-you.png"))); // NOI18N
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 230, 250, -1));
 
         jLabel3.setFont(new java.awt.Font("Verdana", 0, 18)); // NOI18N
