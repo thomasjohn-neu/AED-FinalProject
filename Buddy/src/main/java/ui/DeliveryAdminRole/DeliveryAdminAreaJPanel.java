@@ -49,7 +49,6 @@ public class DeliveryAdminAreaJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         tblStoreContribution = new javax.swing.JTable();
         btnUpdate = new javax.swing.JButton();
-        btnMap = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(243, 244, 246));
@@ -80,20 +79,7 @@ public class DeliveryAdminAreaJPanel extends javax.swing.JPanel {
                 btnUpdateActionPerformed(evt);
             }
         });
-        add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 290, 180, 40));
-
-        btnMap.setBackground(new java.awt.Color(51, 102, 0));
-        btnMap.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
-        btnMap.setForeground(new java.awt.Color(255, 255, 255));
-        btnMap.setText("View Locations");
-        btnMap.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(67, 0, 163)));
-        btnMap.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnMap.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnMapActionPerformed(evt);
-            }
-        });
-        add(btnMap, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 290, 180, 40));
+        add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 290, 180, 40));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(102, 102, 102));
@@ -123,18 +109,8 @@ public class DeliveryAdminAreaJPanel extends javax.swing.JPanel {
         }
     }//GEN-LAST:event_btnUpdateActionPerformed
 
-    private void btnMapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMapActionPerformed
-        // TODO add your handling code here:
-        MapJPanel mvjp = new MapJPanel(userProcessContainer, system);
-        userProcessContainer.add("Manage Volunteers", mvjp);
-        CardLayout layout = (CardLayout) userProcessContainer.getLayout();
-        layout.next(userProcessContainer);
-        
-    }//GEN-LAST:event_btnMapActionPerformed
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnMap;
     private javax.swing.JButton btnUpdate;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
