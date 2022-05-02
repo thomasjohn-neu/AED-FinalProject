@@ -112,10 +112,11 @@ public class ManageContributorJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 110, 404, 110));
 
-        btnCreate.setBackground(new java.awt.Color(255, 255, 255));
+        btnCreate.setBackground(new java.awt.Color(51, 102, 0));
         btnCreate.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        btnCreate.setForeground(new java.awt.Color(255, 255, 255));
         btnCreate.setText("Create");
-        btnCreate.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(67, 0, 163)));
+        btnCreate.setBorder(null);
         btnCreate.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnCreate.setMaximumSize(new java.awt.Dimension(75, 30));
         btnCreate.setMinimumSize(new java.awt.Dimension(75, 30));
@@ -127,10 +128,11 @@ public class ManageContributorJPanel extends javax.swing.JPanel {
         });
         add(btnCreate, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 260, 100, 40));
 
-        btnView.setBackground(new java.awt.Color(255, 255, 255));
+        btnView.setBackground(new java.awt.Color(51, 102, 0));
         btnView.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        btnView.setForeground(new java.awt.Color(255, 255, 255));
         btnView.setText("View");
-        btnView.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(67, 0, 163)));
+        btnView.setBorder(null);
         btnView.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnView.setMaximumSize(new java.awt.Dimension(75, 30));
         btnView.setMinimumSize(new java.awt.Dimension(75, 30));
@@ -142,10 +144,11 @@ public class ManageContributorJPanel extends javax.swing.JPanel {
         });
         add(btnView, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 260, 90, 40));
 
-        btnUpdate.setBackground(new java.awt.Color(255, 255, 255));
+        btnUpdate.setBackground(new java.awt.Color(51, 102, 0));
         btnUpdate.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        btnUpdate.setForeground(new java.awt.Color(255, 255, 255));
         btnUpdate.setText("Update");
-        btnUpdate.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(67, 0, 163)));
+        btnUpdate.setBorder(null);
         btnUpdate.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,10 +157,11 @@ public class ManageContributorJPanel extends javax.swing.JPanel {
         });
         add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 260, 90, 40));
 
-        btnDelete.setBackground(new java.awt.Color(255, 255, 255));
+        btnDelete.setBackground(new java.awt.Color(51, 102, 0));
         btnDelete.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        btnDelete.setForeground(new java.awt.Color(255, 255, 255));
         btnDelete.setText("Delete");
-        btnDelete.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(67, 0, 163)));
+        btnDelete.setBorder(null);
         btnDelete.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

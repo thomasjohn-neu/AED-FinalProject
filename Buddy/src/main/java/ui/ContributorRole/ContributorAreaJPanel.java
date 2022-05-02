@@ -51,6 +51,7 @@ public class ContributorAreaJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(243, 244, 246));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText("Hello There Contributor!");
 
         btnAddContribution.setBackground(new java.awt.Color(51, 102, 0));

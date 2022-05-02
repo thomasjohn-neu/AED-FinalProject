@@ -51,6 +51,7 @@ public class DeliveryAgentWorkArea extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Welcome Delivery Agency");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, 278, 32));

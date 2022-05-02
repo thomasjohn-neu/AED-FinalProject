@@ -70,7 +70,7 @@ public class DeliveryAdminAreaJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 110, 640, 130));
 
-        btnUpdate.setBackground(new java.awt.Color(67, 0, 163));
+        btnUpdate.setBackground(new java.awt.Color(51, 102, 0));
         btnUpdate.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
         btnUpdate.setForeground(new java.awt.Color(255, 255, 255));
         btnUpdate.setText("Update Details");
@@ -82,9 +82,9 @@ public class DeliveryAdminAreaJPanel extends javax.swing.JPanel {
         });
         add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 290, 180, 40));
 
-        btnMap.setBackground(new java.awt.Color(255, 255, 255));
+        btnMap.setBackground(new java.awt.Color(51, 102, 0));
         btnMap.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
-        btnMap.setForeground(new java.awt.Color(67, 0, 163));
+        btnMap.setForeground(new java.awt.Color(255, 255, 255));
         btnMap.setText("View Locations");
         btnMap.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(67, 0, 163)));
         btnMap.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -96,8 +96,9 @@ public class DeliveryAdminAreaJPanel extends javax.swing.JPanel {
         add(btnMap, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 290, 180, 40));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText("Delivery Admin Portal");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 30, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 60, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed

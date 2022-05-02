@@ -78,7 +78,7 @@ public class DeliverToReceiverJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, 580, 110));
 
-        btnDeliver.setBackground(new java.awt.Color(67, 0, 163));
+        btnDeliver.setBackground(new java.awt.Color(51, 102, 0));
         btnDeliver.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         btnDeliver.setForeground(new java.awt.Color(255, 255, 255));
         btnDeliver.setText("Deliver");
@@ -91,13 +91,15 @@ public class DeliverToReceiverJPanel extends javax.swing.JPanel {
         add(btnDeliver, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 280, 112, -1));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText("Assign To Receiver");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 80, -1, -1));
 
-        btnBack.setBackground(new java.awt.Color(255, 255, 255));
+        btnBack.setBackground(new java.awt.Color(51, 102, 0));
         btnBack.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("Back");
-        btnBack.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        btnBack.setBorder(null);
         btnBack.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

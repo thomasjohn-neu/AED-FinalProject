@@ -53,8 +53,9 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(243, 244, 246));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        submitJButton.setBackground(new java.awt.Color(51, 102, 0));
         submitJButton.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
-        submitJButton.setForeground(new java.awt.Color(67, 0, 163));
+        submitJButton.setForeground(new java.awt.Color(255, 255, 255));
         submitJButton.setText("Submit Status");
         submitJButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -77,13 +78,15 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
         add(txtResult, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 150, 130, -1));
 
         jLabel2.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(102, 102, 102));
         jLabel2.setText("Delivery Status");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 90, -1, -1));
 
-        btnBack1.setBackground(new java.awt.Color(255, 255, 255));
+        btnBack1.setBackground(new java.awt.Color(51, 102, 0));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        btnBack1.setForeground(new java.awt.Color(255, 255, 255));
         btnBack1.setText("Back");
-        btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        btnBack1.setBorder(null);
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBack1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
