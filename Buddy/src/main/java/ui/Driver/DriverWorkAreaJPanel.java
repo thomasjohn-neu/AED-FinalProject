@@ -118,7 +118,7 @@ public class DriverWorkAreaJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, 580, 130));
 
-        btnProcess.setBackground(new java.awt.Color(67, 0, 163));
+        btnProcess.setBackground(new java.awt.Color(51, 102, 0));
         btnProcess.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnProcess.setForeground(new java.awt.Color(255, 255, 255));
         btnProcess.setText("Process Order");
