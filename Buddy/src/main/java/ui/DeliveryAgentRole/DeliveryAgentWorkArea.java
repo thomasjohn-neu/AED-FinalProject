@@ -57,35 +57,41 @@ public class DeliveryAgentWorkArea extends javax.swing.JPanel {
         jLabel1.setText("Welcome Delivery Agency");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, 278, 32));
 
+        btnDrivers.setBackground(new java.awt.Color(51, 102, 0));
         btnDrivers.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
+        btnDrivers.setForeground(new java.awt.Color(255, 255, 255));
         btnDrivers.setText("Manage Drivers");
-        btnDrivers.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        btnDrivers.setBorder(null);
         btnDrivers.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnDriversActionPerformed(evt);
             }
         });
-        add(btnDrivers, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 160, 178, 33));
+        add(btnDrivers, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 170, 178, 33));
 
+        btnWorkRequests.setBackground(new java.awt.Color(51, 102, 0));
         btnWorkRequests.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        btnWorkRequests.setForeground(new java.awt.Color(255, 255, 255));
         btnWorkRequests.setText("Manage Work Requests");
-        btnWorkRequests.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        btnWorkRequests.setBorder(null);
         btnWorkRequests.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnWorkRequestsActionPerformed(evt);
             }
         });
-        add(btnWorkRequests, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 260, 180, 37));
+        add(btnWorkRequests, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 290, 180, 37));
 
+        btnClerks.setBackground(new java.awt.Color(51, 102, 0));
         btnClerks.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
+        btnClerks.setForeground(new java.awt.Color(255, 255, 255));
         btnClerks.setText("Manage Clerks");
-        btnClerks.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        btnClerks.setBorder(null);
         btnClerks.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnClerksActionPerformed(evt);
             }
         });
-        add(btnClerks, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 210, 178, 37));
+        add(btnClerks, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 230, 178, 37));
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 200, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 

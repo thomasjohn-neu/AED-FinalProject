@@ -104,7 +104,9 @@ public class ManageDriverJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 120, 404, 91));
 
+        btnCreate.setBackground(new java.awt.Color(51, 102, 0));
         btnCreate.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        btnCreate.setForeground(new java.awt.Color(255, 255, 255));
         btnCreate.setText("Create");
         btnCreate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -113,7 +115,9 @@ public class ManageDriverJPanel extends javax.swing.JPanel {
         });
         add(btnCreate, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 250, -1, -1));
 
+        btnView.setBackground(new java.awt.Color(51, 102, 0));
         btnView.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        btnView.setForeground(new java.awt.Color(255, 255, 255));
         btnView.setText("View");
         btnView.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -122,7 +126,9 @@ public class ManageDriverJPanel extends javax.swing.JPanel {
         });
         add(btnView, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 250, -1, -1));
 
+        btnUpdate.setBackground(new java.awt.Color(51, 102, 0));
         btnUpdate.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        btnUpdate.setForeground(new java.awt.Color(255, 255, 255));
         btnUpdate.setText("Update");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -131,7 +137,9 @@ public class ManageDriverJPanel extends javax.swing.JPanel {
         });
         add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 250, -1, -1));
 
+        btnDelete.setBackground(new java.awt.Color(51, 102, 0));
         btnDelete.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        btnDelete.setForeground(new java.awt.Color(255, 255, 255));
         btnDelete.setText("Delete");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
