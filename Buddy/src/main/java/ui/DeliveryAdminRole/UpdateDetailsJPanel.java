@@ -200,7 +200,7 @@ public class UpdateDetailsJPanel extends javax.swing.JPanel {
 
         add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(304, 88, -1, -1));
 
-        btnUpdate.setBackground(new java.awt.Color(67, 0, 163));
+        btnUpdate.setBackground(new java.awt.Color(51, 102, 0));
         btnUpdate.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
         btnUpdate.setForeground(new java.awt.Color(255, 255, 255));
         btnUpdate.setText("Assign To Agency");
@@ -212,10 +212,11 @@ public class UpdateDetailsJPanel extends javax.swing.JPanel {
         });
         add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 230, 190, 40));
 
-        btnBack1.setBackground(new java.awt.Color(255, 255, 255));
+        btnBack1.setBackground(new java.awt.Color(51, 102, 0));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        btnBack1.setForeground(new java.awt.Color(255, 255, 255));
         btnBack1.setText("Back");
-        btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        btnBack1.setBorder(null);
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBack1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

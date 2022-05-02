@@ -53,8 +53,9 @@ public class ManageStoreJPanel extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText("Manage Store");
 
+        btnAddContribution.setBackground(new java.awt.Color(51, 102, 0));
         btnAddContribution.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        btnAddContribution.setForeground(new java.awt.Color(67, 0, 163));
+        btnAddContribution.setForeground(new java.awt.Color(255, 255, 255));
         btnAddContribution.setText("Add Contribution");
         btnAddContribution.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -62,8 +63,9 @@ public class ManageStoreJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnViewContribution.setBackground(new java.awt.Color(51, 102, 0));
         btnViewContribution.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        btnViewContribution.setForeground(new java.awt.Color(67, 0, 163));
+        btnViewContribution.setForeground(new java.awt.Color(255, 255, 255));
         btnViewContribution.setText("View Contribution History");
         btnViewContribution.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

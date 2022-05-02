@@ -60,7 +60,7 @@ public class ViewContributionJPanel extends javax.swing.JPanel {
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnBack1.setForeground(new java.awt.Color(255, 255, 255));
         btnBack1.setText("Back");
-        btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        btnBack1.setBorder(null);
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBack1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -70,6 +70,7 @@ public class ViewContributionJPanel extends javax.swing.JPanel {
         add(btnBack1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 110, -1));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText("View Contribution History");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 90, -1, -1));
 
@@ -99,8 +100,9 @@ public class ViewContributionJPanel extends javax.swing.JPanel {
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-30, 170, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Verdana", 0, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(102, 102, 102));
         jLabel3.setText("Thank you for your contribution!");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 410, 350, 30));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 360, 350, 30));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnBack1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBack1ActionPerformed

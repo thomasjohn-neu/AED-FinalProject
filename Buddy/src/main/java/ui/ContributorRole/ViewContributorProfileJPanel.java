@@ -66,6 +66,7 @@ public class ViewContributorProfileJPanel extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblProfile.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        lblProfile.setForeground(new java.awt.Color(102, 102, 102));
         lblProfile.setText("Contributor Profile");
         add(lblProfile, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 40, -1, -1));
 
@@ -184,7 +185,7 @@ public class ViewContributorProfileJPanel extends javax.swing.JPanel {
                 .addContainerGap(56, Short.MAX_VALUE))
         );
 
-        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 100, 660, 220));
+        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, 660, 220));
 
         back.setBackground(new java.awt.Color(51, 102, 0));
         back.setForeground(new java.awt.Color(255, 255, 255));

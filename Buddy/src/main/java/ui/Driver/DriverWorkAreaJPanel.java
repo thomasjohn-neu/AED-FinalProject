@@ -132,17 +132,19 @@ public class DriverWorkAreaJPanel extends javax.swing.JPanel {
         add(btnProcess, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 320, -1, -1));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText("Driver Work Requests");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 110, -1, -1));
 
         enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        enterpriseLabel.setForeground(new java.awt.Color(102, 102, 102));
         enterpriseLabel.setText("Driver:");
         add(enterpriseLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, 70, 30));
 
         valueLabel.setText("<value>");
         add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, 158, 26));
 
-        btnRefresh1.setBackground(new java.awt.Color(67, 0, 163));
+        btnRefresh1.setBackground(new java.awt.Color(51, 102, 0));
         btnRefresh1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnRefresh1.setForeground(new java.awt.Color(255, 255, 255));
         btnRefresh1.setText("Refresh");

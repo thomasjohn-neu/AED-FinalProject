@@ -74,7 +74,7 @@ public class AssignDriverJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 140, 450, 161));
 
-        btnAssign.setBackground(new java.awt.Color(67, 0, 163));
+        btnAssign.setBackground(new java.awt.Color(51, 102, 0));
         btnAssign.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnAssign.setForeground(new java.awt.Color(255, 255, 255));
         btnAssign.setText("Assign Driver");
@@ -86,10 +86,11 @@ public class AssignDriverJPanel extends javax.swing.JPanel {
         });
         add(btnAssign, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 340, -1, -1));
 
-        btnBack1.setBackground(new java.awt.Color(255, 255, 255));
+        btnBack1.setBackground(new java.awt.Color(51, 102, 0));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        btnBack1.setForeground(new java.awt.Color(255, 255, 255));
         btnBack1.setText("Back");
-        btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        btnBack1.setBorder(null);
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBack1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -100,6 +101,7 @@ public class AssignDriverJPanel extends javax.swing.JPanel {
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText("Assign Driver");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 90, -1, -1));
     }// </editor-fold>//GEN-END:initComponents

@@ -90,7 +90,7 @@ public class AssignDeliveryAgencyJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 120, 404, 91));
 
-        btnAssignDeliveryAgency.setBackground(new java.awt.Color(67, 0, 163));
+        btnAssignDeliveryAgency.setBackground(new java.awt.Color(51, 102, 0));
         btnAssignDeliveryAgency.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnAssignDeliveryAgency.setForeground(new java.awt.Color(255, 255, 255));
         btnAssignDeliveryAgency.setText("Assign Order");
@@ -102,10 +102,11 @@ public class AssignDeliveryAgencyJPanel extends javax.swing.JPanel {
         });
         add(btnAssignDeliveryAgency, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 250, 150, 40));
 
-        btnBack1.setBackground(new java.awt.Color(255, 255, 255));
+        btnBack1.setBackground(new java.awt.Color(51, 102, 0));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
+        btnBack1.setForeground(new java.awt.Color(255, 255, 255));
         btnBack1.setText("Back");
-        btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        btnBack1.setBorder(null);
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBack1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -54,8 +54,9 @@ public class StoreAdminAreaJPanel extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText("Welcom Store Admin");
 
-        btnDeleteStoreAdmin.setBackground(new java.awt.Color(255, 255, 255));
+        btnDeleteStoreAdmin.setBackground(new java.awt.Color(51, 102, 0));
         btnDeleteStoreAdmin.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
+        btnDeleteStoreAdmin.setForeground(new java.awt.Color(255, 255, 255));
         btnDeleteStoreAdmin.setText("Delete Store");
         btnDeleteStoreAdmin.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnDeleteStoreAdmin.addActionListener(new java.awt.event.ActionListener() {
@@ -64,8 +65,9 @@ public class StoreAdminAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnUpdateStoreAdmin.setBackground(new java.awt.Color(255, 255, 255));
+        btnUpdateStoreAdmin.setBackground(new java.awt.Color(51, 102, 0));
         btnUpdateStoreAdmin.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
+        btnUpdateStoreAdmin.setForeground(new java.awt.Color(255, 255, 255));
         btnUpdateStoreAdmin.setText("Update Store");
         btnUpdateStoreAdmin.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnUpdateStoreAdmin.addActionListener(new java.awt.event.ActionListener() {
@@ -74,8 +76,9 @@ public class StoreAdminAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnViewAllStoreAdmin.setBackground(new java.awt.Color(255, 255, 255));
+        btnViewAllStoreAdmin.setBackground(new java.awt.Color(51, 102, 0));
         btnViewAllStoreAdmin.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
+        btnViewAllStoreAdmin.setForeground(new java.awt.Color(255, 255, 255));
         btnViewAllStoreAdmin.setText("View All Stores");
         btnViewAllStoreAdmin.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnViewAllStoreAdmin.addActionListener(new java.awt.event.ActionListener() {
@@ -84,8 +87,9 @@ public class StoreAdminAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnAddStoreAdmin.setBackground(new java.awt.Color(255, 255, 255));
+        btnAddStoreAdmin.setBackground(new java.awt.Color(51, 102, 0));
         btnAddStoreAdmin.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
+        btnAddStoreAdmin.setForeground(new java.awt.Color(255, 255, 255));
         btnAddStoreAdmin.setText("Add Store");
         btnAddStoreAdmin.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnAddStoreAdmin.addActionListener(new java.awt.event.ActionListener() {

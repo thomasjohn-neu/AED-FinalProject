@@ -185,14 +185,15 @@ public class ViewVolunteerProfileJPanel extends javax.swing.JPanel {
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, 660, 220));
 
         lblProfile.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        lblProfile.setForeground(new java.awt.Color(102, 102, 102));
         lblProfile.setText("Volunteer Profile");
         add(lblProfile, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 70, -1, -1));
 
-        btnBack1.setBackground(new java.awt.Color(255, 255, 255));
+        btnBack1.setBackground(new java.awt.Color(51, 102, 0));
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
-        btnBack1.setForeground(new java.awt.Color(51, 51, 51));
+        btnBack1.setForeground(new java.awt.Color(255, 255, 255));
         btnBack1.setText("Back");
-        btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        btnBack1.setBorder(null);
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBack1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

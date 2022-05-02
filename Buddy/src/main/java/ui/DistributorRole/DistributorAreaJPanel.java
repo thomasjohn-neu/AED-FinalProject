@@ -71,9 +71,9 @@ public class DistributorAreaJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 170, 580, 110));
 
-        btnDeliver.setBackground(new java.awt.Color(255, 255, 255));
+        btnDeliver.setBackground(new java.awt.Color(51, 102, 0));
         btnDeliver.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
-        btnDeliver.setForeground(new java.awt.Color(67, 0, 163));
+        btnDeliver.setForeground(new java.awt.Color(255, 255, 255));
         btnDeliver.setText("Deliver to Receiver");
         btnDeliver.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnDeliver.addActionListener(new java.awt.event.ActionListener() {
@@ -84,6 +84,7 @@ public class DistributorAreaJPanel extends javax.swing.JPanel {
         add(btnDeliver, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 320, 206, 36));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText("Distribution List");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 40, -1, -1));
 

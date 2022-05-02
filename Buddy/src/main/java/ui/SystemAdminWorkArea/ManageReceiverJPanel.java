@@ -118,8 +118,9 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 140, 404, 91));
 
-        btnCreate.setBackground(new java.awt.Color(255, 255, 255));
+        btnCreate.setBackground(new java.awt.Color(51, 102, 0));
         btnCreate.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        btnCreate.setForeground(new java.awt.Color(255, 255, 255));
         btnCreate.setText("Create");
         btnCreate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -128,8 +129,9 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
         });
         add(btnCreate, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 260, -1, -1));
 
-        btnView.setBackground(new java.awt.Color(255, 255, 255));
+        btnView.setBackground(new java.awt.Color(51, 102, 0));
         btnView.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        btnView.setForeground(new java.awt.Color(255, 255, 255));
         btnView.setText("View");
         btnView.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -138,8 +140,9 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
         });
         add(btnView, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 260, -1, -1));
 
-        btnUpdate.setBackground(new java.awt.Color(255, 255, 255));
+        btnUpdate.setBackground(new java.awt.Color(51, 102, 0));
         btnUpdate.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        btnUpdate.setForeground(new java.awt.Color(255, 255, 255));
         btnUpdate.setText("Update");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -148,8 +151,9 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
         });
         add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 260, -1, -1));
 
-        btnDelete.setBackground(new java.awt.Color(255, 255, 255));
+        btnDelete.setBackground(new java.awt.Color(51, 102, 0));
         btnDelete.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        btnDelete.setForeground(new java.awt.Color(255, 255, 255));
         btnDelete.setText("Delete");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -401,7 +405,7 @@ public class ManageReceiverJPanel extends javax.swing.JPanel {
         btnBack1.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnBack1.setForeground(new java.awt.Color(255, 255, 255));
         btnBack1.setText("Back");
-        btnBack1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        btnBack1.setBorder(null);
         btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBack1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
