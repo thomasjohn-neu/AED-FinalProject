@@ -102,7 +102,7 @@ public class ManageDeliveryAgentJPanel extends javax.swing.JPanel {
         btnBack.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
         btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("Back");
-        btnBack.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        btnBack.setBorder(null);
         btnBack.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
